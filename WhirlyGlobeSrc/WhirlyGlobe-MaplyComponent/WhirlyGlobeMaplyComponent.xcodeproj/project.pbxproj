@@ -7,6 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BD3588E1DD3B6BC00081EA8 /* binary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358301DD3B6BB00081EA8 /* binary.cpp */; };
+		2BD3588F1DD3B6BC00081EA8 /* collectionstack.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358311DD3B6BB00081EA8 /* collectionstack.h */; };
+		2BD358901DD3B6BC00081EA8 /* graphbuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358331DD3B6BB00081EA8 /* graphbuilder.cpp */; };
+		2BD358911DD3B6BC00081EA8 /* graphbuilderadapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358341DD3B6BB00081EA8 /* graphbuilderadapter.cpp */; };
+		2BD358921DD3B6BC00081EA8 /* graphbuilderadapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358351DD3B6BB00081EA8 /* graphbuilderadapter.h */; };
+		2BD358931DD3B6BC00081EA8 /* convert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358361DD3B6BB00081EA8 /* convert.cpp */; };
+		2BD358941DD3B6BC00081EA8 /* directives.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358371DD3B6BB00081EA8 /* directives.cpp */; };
+		2BD358951DD3B6BC00081EA8 /* directives.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358381DD3B6BB00081EA8 /* directives.h */; };
+		2BD358961DD3B6BC00081EA8 /* emit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358391DD3B6BB00081EA8 /* emit.cpp */; };
+		2BD358971DD3B6BC00081EA8 /* emitfromevents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3583A1DD3B6BB00081EA8 /* emitfromevents.cpp */; };
+		2BD358981DD3B6BC00081EA8 /* emitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3583B1DD3B6BB00081EA8 /* emitter.cpp */; };
+		2BD358991DD3B6BC00081EA8 /* emitterstate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3583C1DD3B6BB00081EA8 /* emitterstate.cpp */; };
+		2BD3589A1DD3B6BC00081EA8 /* emitterstate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3583D1DD3B6BB00081EA8 /* emitterstate.h */; };
+		2BD3589B1DD3B6BC00081EA8 /* emitterutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3583E1DD3B6BB00081EA8 /* emitterutils.cpp */; };
+		2BD3589C1DD3B6BC00081EA8 /* emitterutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3583F1DD3B6BB00081EA8 /* emitterutils.h */; };
+		2BD3589D1DD3B6BC00081EA8 /* exp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358401DD3B6BB00081EA8 /* exp.cpp */; };
+		2BD3589E1DD3B6BC00081EA8 /* exp.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358411DD3B6BB00081EA8 /* exp.h */; };
+		2BD3589F1DD3B6BC00081EA8 /* indentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358421DD3B6BB00081EA8 /* indentation.h */; };
+		2BD358A01DD3B6BC00081EA8 /* memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358431DD3B6BB00081EA8 /* memory.cpp */; };
+		2BD358A11DD3B6BC00081EA8 /* node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358441DD3B6BB00081EA8 /* node.cpp */; };
+		2BD358A21DD3B6BC00081EA8 /* node_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358451DD3B6BB00081EA8 /* node_data.cpp */; };
+		2BD358A31DD3B6BC00081EA8 /* nodebuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358461DD3B6BB00081EA8 /* nodebuilder.cpp */; };
+		2BD358A41DD3B6BC00081EA8 /* nodebuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358471DD3B6BB00081EA8 /* nodebuilder.h */; };
+		2BD358A51DD3B6BC00081EA8 /* nodeevents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358481DD3B6BB00081EA8 /* nodeevents.cpp */; };
+		2BD358A61DD3B6BC00081EA8 /* nodeevents.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358491DD3B6BB00081EA8 /* nodeevents.h */; };
+		2BD358A71DD3B6BC00081EA8 /* null.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3584A1DD3B6BB00081EA8 /* null.cpp */; };
+		2BD358A81DD3B6BC00081EA8 /* ostream_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3584B1DD3B6BB00081EA8 /* ostream_wrapper.cpp */; };
+		2BD358A91DD3B6BC00081EA8 /* parse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3584C1DD3B6BB00081EA8 /* parse.cpp */; };
+		2BD358AA1DD3B6BC00081EA8 /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3584D1DD3B6BB00081EA8 /* parser.cpp */; };
+		2BD358AB1DD3B6BC00081EA8 /* ptr_vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3584E1DD3B6BB00081EA8 /* ptr_vector.h */; };
+		2BD358AC1DD3B6BC00081EA8 /* regex_yaml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3584F1DD3B6BB00081EA8 /* regex_yaml.cpp */; };
+		2BD358AD1DD3B6BC00081EA8 /* regex_yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358501DD3B6BB00081EA8 /* regex_yaml.h */; };
+		2BD358AE1DD3B6BC00081EA8 /* regeximpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358511DD3B6BB00081EA8 /* regeximpl.h */; };
+		2BD358AF1DD3B6BC00081EA8 /* scanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358521DD3B6BB00081EA8 /* scanner.cpp */; };
+		2BD358B01DD3B6BC00081EA8 /* scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358531DD3B6BB00081EA8 /* scanner.h */; };
+		2BD358B11DD3B6BC00081EA8 /* scanscalar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358541DD3B6BB00081EA8 /* scanscalar.cpp */; };
+		2BD358B21DD3B6BC00081EA8 /* scanscalar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358551DD3B6BB00081EA8 /* scanscalar.h */; };
+		2BD358B31DD3B6BC00081EA8 /* scantag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358561DD3B6BB00081EA8 /* scantag.cpp */; };
+		2BD358B41DD3B6BC00081EA8 /* scantag.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358571DD3B6BB00081EA8 /* scantag.h */; };
+		2BD358B51DD3B6BC00081EA8 /* scantoken.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358581DD3B6BB00081EA8 /* scantoken.cpp */; };
+		2BD358B61DD3B6BC00081EA8 /* setting.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358591DD3B6BB00081EA8 /* setting.h */; };
+		2BD358B71DD3B6BC00081EA8 /* simplekey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3585A1DD3B6BB00081EA8 /* simplekey.cpp */; };
+		2BD358B81DD3B6BC00081EA8 /* singledocparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3585B1DD3B6BB00081EA8 /* singledocparser.cpp */; };
+		2BD358B91DD3B6BC00081EA8 /* singledocparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3585C1DD3B6BB00081EA8 /* singledocparser.h */; };
+		2BD358BA1DD3B6BC00081EA8 /* stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3585D1DD3B6BB00081EA8 /* stream.cpp */; };
+		2BD358BB1DD3B6BC00081EA8 /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3585E1DD3B6BB00081EA8 /* stream.h */; };
+		2BD358BC1DD3B6BC00081EA8 /* streamcharsource.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3585F1DD3B6BB00081EA8 /* streamcharsource.h */; };
+		2BD358BD1DD3B6BC00081EA8 /* stringsource.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358601DD3B6BB00081EA8 /* stringsource.h */; };
+		2BD358BE1DD3B6BC00081EA8 /* tag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358611DD3B6BC00081EA8 /* tag.cpp */; };
+		2BD358BF1DD3B6BC00081EA8 /* tag.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358621DD3B6BC00081EA8 /* tag.h */; };
+		2BD358C01DD3B6BC00081EA8 /* token.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358631DD3B6BC00081EA8 /* token.h */; };
+		2BD358C11DD3B6BC00081EA8 /* anchor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358661DD3B6BC00081EA8 /* anchor.h */; };
+		2BD358C21DD3B6BC00081EA8 /* binary.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358671DD3B6BC00081EA8 /* binary.h */; };
+		2BD358C31DD3B6BC00081EA8 /* anchordict.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358691DD3B6BC00081EA8 /* anchordict.h */; };
+		2BD358C41DD3B6BC00081EA8 /* graphbuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3586A1DD3B6BC00081EA8 /* graphbuilder.h */; };
+		2BD358C51DD3B6BC00081EA8 /* dll.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3586B1DD3B6BC00081EA8 /* dll.h */; };
+		2BD358C61DD3B6BC00081EA8 /* emitfromevents.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3586C1DD3B6BC00081EA8 /* emitfromevents.h */; };
+		2BD358C71DD3B6BC00081EA8 /* emitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3586D1DD3B6BC00081EA8 /* emitter.h */; };
+		2BD358C81DD3B6BC00081EA8 /* emitterdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3586E1DD3B6BC00081EA8 /* emitterdef.h */; };
+		2BD358C91DD3B6BC00081EA8 /* emittermanip.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3586F1DD3B6BC00081EA8 /* emittermanip.h */; };
+		2BD358CA1DD3B6BC00081EA8 /* emitterstyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358701DD3B6BC00081EA8 /* emitterstyle.h */; };
+		2BD358CB1DD3B6BC00081EA8 /* eventhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358711DD3B6BC00081EA8 /* eventhandler.h */; };
+		2BD358CC1DD3B6BC00081EA8 /* exceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358721DD3B6BC00081EA8 /* exceptions.h */; };
+		2BD358CD1DD3B6BC00081EA8 /* mark.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358731DD3B6BC00081EA8 /* mark.h */; };
+		2BD358CE1DD3B6BC00081EA8 /* convert.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358751DD3B6BC00081EA8 /* convert.h */; };
+		2BD358CF1DD3B6BC00081EA8 /* bool_type.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358771DD3B6BC00081EA8 /* bool_type.h */; };
+		2BD358D01DD3B6BC00081EA8 /* impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358781DD3B6BC00081EA8 /* impl.h */; };
+		2BD358D11DD3B6BC00081EA8 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358791DD3B6BC00081EA8 /* iterator.h */; };
+		2BD358D21DD3B6BC00081EA8 /* iterator_fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3587A1DD3B6BC00081EA8 /* iterator_fwd.h */; };
+		2BD358D31DD3B6BC00081EA8 /* memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3587B1DD3B6BC00081EA8 /* memory.h */; };
+		2BD358D41DD3B6BC00081EA8 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3587C1DD3B6BC00081EA8 /* node.h */; };
+		2BD358D51DD3B6BC00081EA8 /* node_data.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3587D1DD3B6BC00081EA8 /* node_data.h */; };
+		2BD358D61DD3B6BC00081EA8 /* node_iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3587E1DD3B6BC00081EA8 /* node_iterator.h */; };
+		2BD358D71DD3B6BC00081EA8 /* node_ref.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3587F1DD3B6BC00081EA8 /* node_ref.h */; };
+		2BD358D81DD3B6BC00081EA8 /* emit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358801DD3B6BC00081EA8 /* emit.h */; };
+		2BD358D91DD3B6BC00081EA8 /* impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358811DD3B6BC00081EA8 /* impl.h */; };
+		2BD358DA1DD3B6BC00081EA8 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358821DD3B6BC00081EA8 /* iterator.h */; };
+		2BD358DB1DD3B6BC00081EA8 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358831DD3B6BC00081EA8 /* node.h */; };
+		2BD358DC1DD3B6BC00081EA8 /* parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358841DD3B6BC00081EA8 /* parse.h */; };
+		2BD358DD1DD3B6BC00081EA8 /* ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358851DD3B6BC00081EA8 /* ptr.h */; };
+		2BD358DE1DD3B6BC00081EA8 /* type.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358861DD3B6BC00081EA8 /* type.h */; };
+		2BD358DF1DD3B6BC00081EA8 /* noncopyable.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358871DD3B6BC00081EA8 /* noncopyable.h */; };
+		2BD358E01DD3B6BC00081EA8 /* null.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358881DD3B6BC00081EA8 /* null.h */; };
+		2BD358E11DD3B6BC00081EA8 /* ostream_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358891DD3B6BC00081EA8 /* ostream_wrapper.h */; };
+		2BD358E21DD3B6BC00081EA8 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3588A1DD3B6BC00081EA8 /* parser.h */; };
+		2BD358E31DD3B6BC00081EA8 /* stlemitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3588B1DD3B6BC00081EA8 /* stlemitter.h */; };
+		2BD358E41DD3B6BC00081EA8 /* traits.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3588C1DD3B6BC00081EA8 /* traits.h */; };
+		2BD358E51DD3B6BC00081EA8 /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD3588D1DD3B6BC00081EA8 /* yaml.h */; };
+		2BD358EC1DD3B99900081EA8 /* TangramStyleSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD358EA1DD3B99900081EA8 /* TangramStyleSet.h */; };
+		2BD358ED1DD3B99900081EA8 /* TangramStyleSet.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BD358EB1DD3B99900081EA8 /* TangramStyleSet.mm */; };
 		2BE537031D2499E500B60FAD /* WhirlyGlobeMaplyComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE537021D2499E500B60FAD /* WhirlyGlobeMaplyComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BE5370A1D2499E500B60FAD /* WhirlyGlobeMaplyComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE536FF1D2499E500B60FAD /* WhirlyGlobeMaplyComponent.framework */; };
 		2BE5370F1D2499E500B60FAD /* WhirlyGlobeMaplyComponentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5370E1D2499E500B60FAD /* WhirlyGlobeMaplyComponentTests.m */; };
@@ -479,6 +569,96 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BD358301DD3B6BB00081EA8 /* binary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binary.cpp; sourceTree = "<group>"; };
+		2BD358311DD3B6BB00081EA8 /* collectionstack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionstack.h; sourceTree = "<group>"; };
+		2BD358331DD3B6BB00081EA8 /* graphbuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphbuilder.cpp; sourceTree = "<group>"; };
+		2BD358341DD3B6BB00081EA8 /* graphbuilderadapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphbuilderadapter.cpp; sourceTree = "<group>"; };
+		2BD358351DD3B6BB00081EA8 /* graphbuilderadapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphbuilderadapter.h; sourceTree = "<group>"; };
+		2BD358361DD3B6BB00081EA8 /* convert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convert.cpp; sourceTree = "<group>"; };
+		2BD358371DD3B6BB00081EA8 /* directives.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = directives.cpp; sourceTree = "<group>"; };
+		2BD358381DD3B6BB00081EA8 /* directives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = directives.h; sourceTree = "<group>"; };
+		2BD358391DD3B6BB00081EA8 /* emit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emit.cpp; sourceTree = "<group>"; };
+		2BD3583A1DD3B6BB00081EA8 /* emitfromevents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emitfromevents.cpp; sourceTree = "<group>"; };
+		2BD3583B1DD3B6BB00081EA8 /* emitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emitter.cpp; sourceTree = "<group>"; };
+		2BD3583C1DD3B6BB00081EA8 /* emitterstate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emitterstate.cpp; sourceTree = "<group>"; };
+		2BD3583D1DD3B6BB00081EA8 /* emitterstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emitterstate.h; sourceTree = "<group>"; };
+		2BD3583E1DD3B6BB00081EA8 /* emitterutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emitterutils.cpp; sourceTree = "<group>"; };
+		2BD3583F1DD3B6BB00081EA8 /* emitterutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emitterutils.h; sourceTree = "<group>"; };
+		2BD358401DD3B6BB00081EA8 /* exp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exp.cpp; sourceTree = "<group>"; };
+		2BD358411DD3B6BB00081EA8 /* exp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exp.h; sourceTree = "<group>"; };
+		2BD358421DD3B6BB00081EA8 /* indentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indentation.h; sourceTree = "<group>"; };
+		2BD358431DD3B6BB00081EA8 /* memory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = memory.cpp; sourceTree = "<group>"; };
+		2BD358441DD3B6BB00081EA8 /* node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = node.cpp; sourceTree = "<group>"; };
+		2BD358451DD3B6BB00081EA8 /* node_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = node_data.cpp; sourceTree = "<group>"; };
+		2BD358461DD3B6BB00081EA8 /* nodebuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nodebuilder.cpp; sourceTree = "<group>"; };
+		2BD358471DD3B6BB00081EA8 /* nodebuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nodebuilder.h; sourceTree = "<group>"; };
+		2BD358481DD3B6BB00081EA8 /* nodeevents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nodeevents.cpp; sourceTree = "<group>"; };
+		2BD358491DD3B6BB00081EA8 /* nodeevents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nodeevents.h; sourceTree = "<group>"; };
+		2BD3584A1DD3B6BB00081EA8 /* null.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = null.cpp; sourceTree = "<group>"; };
+		2BD3584B1DD3B6BB00081EA8 /* ostream_wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ostream_wrapper.cpp; sourceTree = "<group>"; };
+		2BD3584C1DD3B6BB00081EA8 /* parse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parse.cpp; sourceTree = "<group>"; };
+		2BD3584D1DD3B6BB00081EA8 /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cpp; sourceTree = "<group>"; };
+		2BD3584E1DD3B6BB00081EA8 /* ptr_vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ptr_vector.h; sourceTree = "<group>"; };
+		2BD3584F1DD3B6BB00081EA8 /* regex_yaml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = regex_yaml.cpp; sourceTree = "<group>"; };
+		2BD358501DD3B6BB00081EA8 /* regex_yaml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regex_yaml.h; sourceTree = "<group>"; };
+		2BD358511DD3B6BB00081EA8 /* regeximpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regeximpl.h; sourceTree = "<group>"; };
+		2BD358521DD3B6BB00081EA8 /* scanner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scanner.cpp; sourceTree = "<group>"; };
+		2BD358531DD3B6BB00081EA8 /* scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scanner.h; sourceTree = "<group>"; };
+		2BD358541DD3B6BB00081EA8 /* scanscalar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scanscalar.cpp; sourceTree = "<group>"; };
+		2BD358551DD3B6BB00081EA8 /* scanscalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scanscalar.h; sourceTree = "<group>"; };
+		2BD358561DD3B6BB00081EA8 /* scantag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scantag.cpp; sourceTree = "<group>"; };
+		2BD358571DD3B6BB00081EA8 /* scantag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scantag.h; sourceTree = "<group>"; };
+		2BD358581DD3B6BB00081EA8 /* scantoken.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scantoken.cpp; sourceTree = "<group>"; };
+		2BD358591DD3B6BB00081EA8 /* setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setting.h; sourceTree = "<group>"; };
+		2BD3585A1DD3B6BB00081EA8 /* simplekey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simplekey.cpp; sourceTree = "<group>"; };
+		2BD3585B1DD3B6BB00081EA8 /* singledocparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = singledocparser.cpp; sourceTree = "<group>"; };
+		2BD3585C1DD3B6BB00081EA8 /* singledocparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singledocparser.h; sourceTree = "<group>"; };
+		2BD3585D1DD3B6BB00081EA8 /* stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stream.cpp; sourceTree = "<group>"; };
+		2BD3585E1DD3B6BB00081EA8 /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream.h; sourceTree = "<group>"; };
+		2BD3585F1DD3B6BB00081EA8 /* streamcharsource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = streamcharsource.h; sourceTree = "<group>"; };
+		2BD358601DD3B6BB00081EA8 /* stringsource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringsource.h; sourceTree = "<group>"; };
+		2BD358611DD3B6BC00081EA8 /* tag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tag.cpp; sourceTree = "<group>"; };
+		2BD358621DD3B6BC00081EA8 /* tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
+		2BD358631DD3B6BC00081EA8 /* token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = token.h; sourceTree = "<group>"; };
+		2BD358661DD3B6BC00081EA8 /* anchor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = anchor.h; sourceTree = "<group>"; };
+		2BD358671DD3B6BC00081EA8 /* binary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binary.h; sourceTree = "<group>"; };
+		2BD358691DD3B6BC00081EA8 /* anchordict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = anchordict.h; sourceTree = "<group>"; };
+		2BD3586A1DD3B6BC00081EA8 /* graphbuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphbuilder.h; sourceTree = "<group>"; };
+		2BD3586B1DD3B6BC00081EA8 /* dll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dll.h; sourceTree = "<group>"; };
+		2BD3586C1DD3B6BC00081EA8 /* emitfromevents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emitfromevents.h; sourceTree = "<group>"; };
+		2BD3586D1DD3B6BC00081EA8 /* emitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emitter.h; sourceTree = "<group>"; };
+		2BD3586E1DD3B6BC00081EA8 /* emitterdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emitterdef.h; sourceTree = "<group>"; };
+		2BD3586F1DD3B6BC00081EA8 /* emittermanip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emittermanip.h; sourceTree = "<group>"; };
+		2BD358701DD3B6BC00081EA8 /* emitterstyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emitterstyle.h; sourceTree = "<group>"; };
+		2BD358711DD3B6BC00081EA8 /* eventhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventhandler.h; sourceTree = "<group>"; };
+		2BD358721DD3B6BC00081EA8 /* exceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exceptions.h; sourceTree = "<group>"; };
+		2BD358731DD3B6BC00081EA8 /* mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mark.h; sourceTree = "<group>"; };
+		2BD358751DD3B6BC00081EA8 /* convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert.h; sourceTree = "<group>"; };
+		2BD358771DD3B6BC00081EA8 /* bool_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bool_type.h; sourceTree = "<group>"; };
+		2BD358781DD3B6BC00081EA8 /* impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impl.h; sourceTree = "<group>"; };
+		2BD358791DD3B6BC00081EA8 /* iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iterator.h; sourceTree = "<group>"; };
+		2BD3587A1DD3B6BC00081EA8 /* iterator_fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iterator_fwd.h; sourceTree = "<group>"; };
+		2BD3587B1DD3B6BC00081EA8 /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
+		2BD3587C1DD3B6BC00081EA8 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		2BD3587D1DD3B6BC00081EA8 /* node_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node_data.h; sourceTree = "<group>"; };
+		2BD3587E1DD3B6BC00081EA8 /* node_iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node_iterator.h; sourceTree = "<group>"; };
+		2BD3587F1DD3B6BC00081EA8 /* node_ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node_ref.h; sourceTree = "<group>"; };
+		2BD358801DD3B6BC00081EA8 /* emit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emit.h; sourceTree = "<group>"; };
+		2BD358811DD3B6BC00081EA8 /* impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impl.h; sourceTree = "<group>"; };
+		2BD358821DD3B6BC00081EA8 /* iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iterator.h; sourceTree = "<group>"; };
+		2BD358831DD3B6BC00081EA8 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		2BD358841DD3B6BC00081EA8 /* parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parse.h; sourceTree = "<group>"; };
+		2BD358851DD3B6BC00081EA8 /* ptr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ptr.h; sourceTree = "<group>"; };
+		2BD358861DD3B6BC00081EA8 /* type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = type.h; sourceTree = "<group>"; };
+		2BD358871DD3B6BC00081EA8 /* noncopyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noncopyable.h; sourceTree = "<group>"; };
+		2BD358881DD3B6BC00081EA8 /* null.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = null.h; sourceTree = "<group>"; };
+		2BD358891DD3B6BC00081EA8 /* ostream_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ostream_wrapper.h; sourceTree = "<group>"; };
+		2BD3588A1DD3B6BC00081EA8 /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		2BD3588B1DD3B6BC00081EA8 /* stlemitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stlemitter.h; sourceTree = "<group>"; };
+		2BD3588C1DD3B6BC00081EA8 /* traits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traits.h; sourceTree = "<group>"; };
+		2BD3588D1DD3B6BC00081EA8 /* yaml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaml.h; sourceTree = "<group>"; };
+		2BD358EA1DD3B99900081EA8 /* TangramStyleSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TangramStyleSet.h; sourceTree = "<group>"; };
+		2BD358EB1DD3B99900081EA8 /* TangramStyleSet.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TangramStyleSet.mm; path = ../../include/vector_tiles/TangramStyleSet.mm; sourceTree = "<group>"; };
 		2BE536FF1D2499E500B60FAD /* WhirlyGlobeMaplyComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WhirlyGlobeMaplyComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE537021D2499E500B60FAD /* WhirlyGlobeMaplyComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhirlyGlobeMaplyComponent.h; sourceTree = "<group>"; };
 		2BE537041D2499E500B60FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -962,6 +1142,159 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BD3582D1DD3B69E00081EA8 /* yaml-cpp */ = {
+			isa = PBXGroup;
+			children = (
+				2BD3582F1DD3B6BB00081EA8 /* src */,
+				2BD358641DD3B6BC00081EA8 /* include */,
+			);
+			name = "yaml-cpp";
+			sourceTree = "<group>";
+		};
+		2BD3582F1DD3B6BB00081EA8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2BD358301DD3B6BB00081EA8 /* binary.cpp */,
+				2BD358311DD3B6BB00081EA8 /* collectionstack.h */,
+				2BD358321DD3B6BB00081EA8 /* contrib */,
+				2BD358361DD3B6BB00081EA8 /* convert.cpp */,
+				2BD358371DD3B6BB00081EA8 /* directives.cpp */,
+				2BD358381DD3B6BB00081EA8 /* directives.h */,
+				2BD358391DD3B6BB00081EA8 /* emit.cpp */,
+				2BD3583A1DD3B6BB00081EA8 /* emitfromevents.cpp */,
+				2BD3583B1DD3B6BB00081EA8 /* emitter.cpp */,
+				2BD3583C1DD3B6BB00081EA8 /* emitterstate.cpp */,
+				2BD3583D1DD3B6BB00081EA8 /* emitterstate.h */,
+				2BD3583E1DD3B6BB00081EA8 /* emitterutils.cpp */,
+				2BD3583F1DD3B6BB00081EA8 /* emitterutils.h */,
+				2BD358401DD3B6BB00081EA8 /* exp.cpp */,
+				2BD358411DD3B6BB00081EA8 /* exp.h */,
+				2BD358421DD3B6BB00081EA8 /* indentation.h */,
+				2BD358431DD3B6BB00081EA8 /* memory.cpp */,
+				2BD358441DD3B6BB00081EA8 /* node.cpp */,
+				2BD358451DD3B6BB00081EA8 /* node_data.cpp */,
+				2BD358461DD3B6BB00081EA8 /* nodebuilder.cpp */,
+				2BD358471DD3B6BB00081EA8 /* nodebuilder.h */,
+				2BD358481DD3B6BB00081EA8 /* nodeevents.cpp */,
+				2BD358491DD3B6BB00081EA8 /* nodeevents.h */,
+				2BD3584A1DD3B6BB00081EA8 /* null.cpp */,
+				2BD3584B1DD3B6BB00081EA8 /* ostream_wrapper.cpp */,
+				2BD3584C1DD3B6BB00081EA8 /* parse.cpp */,
+				2BD3584D1DD3B6BB00081EA8 /* parser.cpp */,
+				2BD3584E1DD3B6BB00081EA8 /* ptr_vector.h */,
+				2BD3584F1DD3B6BB00081EA8 /* regex_yaml.cpp */,
+				2BD358501DD3B6BB00081EA8 /* regex_yaml.h */,
+				2BD358511DD3B6BB00081EA8 /* regeximpl.h */,
+				2BD358521DD3B6BB00081EA8 /* scanner.cpp */,
+				2BD358531DD3B6BB00081EA8 /* scanner.h */,
+				2BD358541DD3B6BB00081EA8 /* scanscalar.cpp */,
+				2BD358551DD3B6BB00081EA8 /* scanscalar.h */,
+				2BD358561DD3B6BB00081EA8 /* scantag.cpp */,
+				2BD358571DD3B6BB00081EA8 /* scantag.h */,
+				2BD358581DD3B6BB00081EA8 /* scantoken.cpp */,
+				2BD358591DD3B6BB00081EA8 /* setting.h */,
+				2BD3585A1DD3B6BB00081EA8 /* simplekey.cpp */,
+				2BD3585B1DD3B6BB00081EA8 /* singledocparser.cpp */,
+				2BD3585C1DD3B6BB00081EA8 /* singledocparser.h */,
+				2BD3585D1DD3B6BB00081EA8 /* stream.cpp */,
+				2BD3585E1DD3B6BB00081EA8 /* stream.h */,
+				2BD3585F1DD3B6BB00081EA8 /* streamcharsource.h */,
+				2BD358601DD3B6BB00081EA8 /* stringsource.h */,
+				2BD358611DD3B6BC00081EA8 /* tag.cpp */,
+				2BD358621DD3B6BC00081EA8 /* tag.h */,
+				2BD358631DD3B6BC00081EA8 /* token.h */,
+			);
+			name = src;
+			path = "../local_libs/yaml-cpp/src";
+			sourceTree = "<group>";
+		};
+		2BD358321DD3B6BB00081EA8 /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				2BD358331DD3B6BB00081EA8 /* graphbuilder.cpp */,
+				2BD358341DD3B6BB00081EA8 /* graphbuilderadapter.cpp */,
+				2BD358351DD3B6BB00081EA8 /* graphbuilderadapter.h */,
+			);
+			path = contrib;
+			sourceTree = "<group>";
+		};
+		2BD358641DD3B6BC00081EA8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2BD358651DD3B6BC00081EA8 /* yaml-cpp */,
+			);
+			name = include;
+			path = "../local_libs/yaml-cpp/include";
+			sourceTree = "<group>";
+		};
+		2BD358651DD3B6BC00081EA8 /* yaml-cpp */ = {
+			isa = PBXGroup;
+			children = (
+				2BD358661DD3B6BC00081EA8 /* anchor.h */,
+				2BD358671DD3B6BC00081EA8 /* binary.h */,
+				2BD358681DD3B6BC00081EA8 /* contrib */,
+				2BD3586B1DD3B6BC00081EA8 /* dll.h */,
+				2BD3586C1DD3B6BC00081EA8 /* emitfromevents.h */,
+				2BD3586D1DD3B6BC00081EA8 /* emitter.h */,
+				2BD3586E1DD3B6BC00081EA8 /* emitterdef.h */,
+				2BD3586F1DD3B6BC00081EA8 /* emittermanip.h */,
+				2BD358701DD3B6BC00081EA8 /* emitterstyle.h */,
+				2BD358711DD3B6BC00081EA8 /* eventhandler.h */,
+				2BD358721DD3B6BC00081EA8 /* exceptions.h */,
+				2BD358731DD3B6BC00081EA8 /* mark.h */,
+				2BD358741DD3B6BC00081EA8 /* node */,
+				2BD358871DD3B6BC00081EA8 /* noncopyable.h */,
+				2BD358881DD3B6BC00081EA8 /* null.h */,
+				2BD358891DD3B6BC00081EA8 /* ostream_wrapper.h */,
+				2BD3588A1DD3B6BC00081EA8 /* parser.h */,
+				2BD3588B1DD3B6BC00081EA8 /* stlemitter.h */,
+				2BD3588C1DD3B6BC00081EA8 /* traits.h */,
+				2BD3588D1DD3B6BC00081EA8 /* yaml.h */,
+			);
+			path = "yaml-cpp";
+			sourceTree = "<group>";
+		};
+		2BD358681DD3B6BC00081EA8 /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				2BD358691DD3B6BC00081EA8 /* anchordict.h */,
+				2BD3586A1DD3B6BC00081EA8 /* graphbuilder.h */,
+			);
+			path = contrib;
+			sourceTree = "<group>";
+		};
+		2BD358741DD3B6BC00081EA8 /* node */ = {
+			isa = PBXGroup;
+			children = (
+				2BD358751DD3B6BC00081EA8 /* convert.h */,
+				2BD358761DD3B6BC00081EA8 /* detail */,
+				2BD358801DD3B6BC00081EA8 /* emit.h */,
+				2BD358811DD3B6BC00081EA8 /* impl.h */,
+				2BD358821DD3B6BC00081EA8 /* iterator.h */,
+				2BD358831DD3B6BC00081EA8 /* node.h */,
+				2BD358841DD3B6BC00081EA8 /* parse.h */,
+				2BD358851DD3B6BC00081EA8 /* ptr.h */,
+				2BD358861DD3B6BC00081EA8 /* type.h */,
+			);
+			path = node;
+			sourceTree = "<group>";
+		};
+		2BD358761DD3B6BC00081EA8 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				2BD358771DD3B6BC00081EA8 /* bool_type.h */,
+				2BD358781DD3B6BC00081EA8 /* impl.h */,
+				2BD358791DD3B6BC00081EA8 /* iterator.h */,
+				2BD3587A1DD3B6BC00081EA8 /* iterator_fwd.h */,
+				2BD3587B1DD3B6BC00081EA8 /* memory.h */,
+				2BD3587C1DD3B6BC00081EA8 /* node.h */,
+				2BD3587D1DD3B6BC00081EA8 /* node_data.h */,
+				2BD3587E1DD3B6BC00081EA8 /* node_iterator.h */,
+				2BD3587F1DD3B6BC00081EA8 /* node_ref.h */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
 		2BE536F51D2499E500B60FAD = {
 			isa = PBXGroup;
 			children = (
@@ -971,6 +1304,7 @@
 				2BE53AC01D249DCA00B60FAD /* libc++.tbd */,
 				2BE53ABE1D249DC500B60FAD /* libstdc++.tbd */,
 				2BE53ABC1D249DA400B60FAD /* libxml2.tbd */,
+				2BD3582D1DD3B69E00081EA8 /* yaml-cpp */,
 				2BE53AB11D249CA200B60FAD /* SMCalloutView */,
 				2BE53A9A1D249C9600B60FAD /* fmdb */,
 				2BE538D71D249BD800B60FAD /* astronomy */,
@@ -1151,6 +1485,7 @@
 				2BE537941D249A1200B60FAD /* MapnikStyleSet.h */,
 				2BE537951D249A1200B60FAD /* vector_tile.pb.h */,
 				E56DB3D41D6B1B17007000D2 /* SLDStyleSet.h */,
+				2BD358EA1DD3B99900081EA8 /* TangramStyleSet.h */,
 				E5EF69F31D6B931500A2A660 /* SLDExpressions.h */,
 				E5EF69F41D6B931500A2A660 /* SLDOperators.h */,
 				E5EF69F51D6B931500A2A660 /* SLDSymbolizers.h */,
@@ -1261,6 +1596,7 @@
 				E5EF69FB1D6B938800A2A660 /* SLDOperators.m */,
 				E5EF69FC1D6B938800A2A660 /* SLDSymbolizers.m */,
 				E5EB67AA1D6DD19700FB3679 /* SLDWellKnownMarkers.m */,
+				2BD358EB1DD3B99900081EA8 /* TangramStyleSet.mm */,
 			);
 			path = vector_tiles;
 			sourceTree = "<group>";
@@ -1600,6 +1936,7 @@
 				E5EF69F61D6B931500A2A660 /* SLDExpressions.h in Headers */,
 				2BE5395E1D249BEF00B60FAD /* AAEquationOfTime.h in Headers */,
 				2BE5397C1D249BEF00B60FAD /* AAPlanetaryPhenomena.h in Headers */,
+				2BD358CA1DD3B6BC00081EA8 /* emitterstyle.h in Headers */,
 				2BE538271D249A1200B60FAD /* MaplyStarsModel.h in Headers */,
 				2BE539801D249BEF00B60FAD /* AARefraction.h in Headers */,
 				2BE539661D249BEF00B60FAD /* AAJupiter.h in Headers */,
@@ -1608,12 +1945,16 @@
 				2BE53A8A1D249C8900B60FAD /* DDXMLElementAdditions.h in Headers */,
 				2BE538111D249A1200B60FAD /* MaplyMarker.h in Headers */,
 				2BE53A941D249C9000B60FAD /* DDXMLDocument.h in Headers */,
+				2BD358D51DD3B6BC00081EA8 /* node_data.h in Headers */,
 				2BE5396F1D249BEF00B60FAD /* AAMoonPhases.h in Headers */,
 				2BE5386F1D249A1200B60FAD /* vector_tile.pb.h in Headers */,
+				2BD358C71DD3B6BC00081EA8 /* emitter.h in Headers */,
 				2BE53A391D249C3D00B60FAD /* package_info.h in Headers */,
 				2BE538311D249A1200B60FAD /* MaplyViewControllerLayer.h in Headers */,
 				2BE53A861D249C8300B60FAD /* NSString+DDXML.h in Headers */,
+				2BD358A41DD3B6BC00081EA8 /* nodebuilder.h in Headers */,
 				2BE53A981D249C9000B60FAD /* DDXMLNode.h in Headers */,
+				2BD358DD1DD3B6BC00081EA8 /* ptr.h in Headers */,
 				2BE53A121D249C2900B60FAD /* repeated_field.h in Headers */,
 				2BE5380C1D249A1200B60FAD /* MaplyGeomModel.h in Headers */,
 				2BE539551D249BEF00B60FAD /* AADate.h in Headers */,
@@ -1625,14 +1966,17 @@
 				2BE53A641D249C4600B60FAD /* atomicops.h in Headers */,
 				2BE5380F1D249A1200B60FAD /* MaplyLabel.h in Headers */,
 				2BE538291D249A1200B60FAD /* MaplySun.h in Headers */,
+				2BD358E41DD3B6BC00081EA8 /* traits.h in Headers */,
 				2BE539811D249BEF00B60FAD /* AARiseTransitSet.h in Headers */,
 				2BE5395B1D249BEF00B60FAD /* AAEclipticalElements.h in Headers */,
+				2BD3589E1DD3B6BC00081EA8 /* exp.h in Headers */,
 				2BE539511D249BEF00B60FAD /* AAAberration.h in Headers */,
 				2BE538221D249A1200B60FAD /* MaplyScreenObject.h in Headers */,
 				2BE53A721D249C4600B60FAD /* once.h in Headers */,
 				2BE538721D249A1200B60FAD /* WhirlyGlobeViewController.h in Headers */,
 				2BE538101D249A1200B60FAD /* MaplyLight.h in Headers */,
 				2BE5386C1D249A1200B60FAD /* MapnikStyle.h in Headers */,
+				2BD358AE1DD3B6BC00081EA8 /* regeximpl.h in Headers */,
 				2BE53A431D249C3D00B60FAD /* zero_copy_stream_impl_lite.h in Headers */,
 				2BE538431D249A1200B60FAD /* MaplyParticleSystem_private.h in Headers */,
 				2BE539731D249BEF00B60FAD /* AANodes.h in Headers */,
@@ -1642,6 +1986,7 @@
 				2BE5380B1D249A1200B60FAD /* MaplyGeomBuilder.h in Headers */,
 				2BE539881D249BEF00B60FAD /* AAUranus.h in Headers */,
 				2BE53AAF1D249C9F00B60FAD /* FMResultSet.h in Headers */,
+				2BD358AD1DD3B6BC00081EA8 /* regex_yaml.h in Headers */,
 				2BE538031D249A1200B60FAD /* MaplyColorRampGenerator.h in Headers */,
 				2BE539631D249BEF00B60FAD /* AAIlluminatedFraction.h in Headers */,
 				2BE539581D249BEF00B60FAD /* AAEarth.h in Headers */,
@@ -1660,13 +2005,17 @@
 				2BE53A011D249C2900B60FAD /* dynamic_message.h in Headers */,
 				2BE53A691D249C4600B60FAD /* atomicops_internals_mips_gcc.h in Headers */,
 				2BE5386E1D249A1200B60FAD /* MapnikStyleSet.h in Headers */,
+				2BD3589F1DD3B6BC00081EA8 /* indentation.h in Headers */,
 				2BE538681D249A1200B60FAD /* MaplyVectorTilePolygonStyle.h in Headers */,
+				2BD358EC1DD3B99900081EA8 /* TangramStyleSet.h in Headers */,
 				2BE539621D249BEF00B60FAD /* AAGlobe.h in Headers */,
 				2BE537FA1D249A1200B60FAD /* MaplyAerisTiles.h in Headers */,
 				2BE538061D249A1200B60FAD /* MaplyCoordinate.h in Headers */,
 				2BE53A761D249C4700B60FAD /* stringprintf.h in Headers */,
+				2BD358C61DD3B6BC00081EA8 /* emitfromevents.h in Headers */,
 				2BE5381B1D249A1200B60FAD /* MaplyQuadImageTilesLayer.h in Headers */,
 				2BE538481D249A1200B60FAD /* MaplyRemoteTileSource_private.h in Headers */,
+				2BD358C31DD3B6BC00081EA8 /* anchordict.h in Headers */,
 				2BE5396D1D249BEF00B60FAD /* AAMoonNodes.h in Headers */,
 				2BE5386B1D249A1200B60FAD /* MaplyVectorTileTextStyle.h in Headers */,
 				2BE539691D249BEF00B60FAD /* AAMercury.h in Headers */,
@@ -1677,9 +2026,14 @@
 				2BE5398A1D249BEF00B60FAD /* stdafx.h in Headers */,
 				2BE5381F1D249A1200B60FAD /* MaplyRemoteTileSource.h in Headers */,
 				2BE53A051D249C2900B60FAD /* generated_enum_reflection.h in Headers */,
+				2BD358C01DD3B6BC00081EA8 /* token.h in Headers */,
 				2BE539751D249BEF00B60FAD /* AAParabolic.h in Headers */,
+				2BD358921DD3B6BC00081EA8 /* graphbuilderadapter.h in Headers */,
 				2BE53A3F1D249C3D00B60FAD /* zero_copy_stream.h in Headers */,
+				2BD358B41DD3B6BC00081EA8 /* scantag.h in Headers */,
+				2BD3589C1DD3B6BC00081EA8 /* emitterutils.h in Headers */,
 				2BE53A681D249C4600B60FAD /* atomicops_internals_macosx.h in Headers */,
+				2BD358E11DD3B6BC00081EA8 /* ostream_wrapper.h in Headers */,
 				2BE5382D1D249A1200B60FAD /* MaplyUpdateLayer.h in Headers */,
 				2BE5395F1D249BEF00B60FAD /* AAEquinoxesAndSolstices.h in Headers */,
 				2BE53A3B1D249C3D00B60FAD /* printer.h in Headers */,
@@ -1687,9 +2041,14 @@
 				2BE539501D249BEF00B60FAD /* AA3DCoordinate.h in Headers */,
 				2BE539761D249BEF00B60FAD /* AAParallactic.h in Headers */,
 				2BE5397B1D249BEF00B60FAD /* AAPhysicalSun.h in Headers */,
+				2BD358D71DD3B6BC00081EA8 /* node_ref.h in Headers */,
+				2BD358CD1DD3B6BC00081EA8 /* mark.h in Headers */,
 				2BE538361D249A1200B60FAD /* ImageTexture_private.h in Headers */,
 				2BE5397D1D249BEF00B60FAD /* AAPlanetPerihelionAphelion.h in Headers */,
 				2BE5383C1D249A1200B60FAD /* MaplyCoordinateSystem_private.h in Headers */,
+				2BD358DE1DD3B6BC00081EA8 /* type.h in Headers */,
+				2BD358B61DD3B6BC00081EA8 /* setting.h in Headers */,
+				2BD358E21DD3B6BC00081EA8 /* parser.h in Headers */,
 				2BE53A031D249C2900B60FAD /* extension_set.h in Headers */,
 				2BE539521D249BEF00B60FAD /* AAAngularSeparation.h in Headers */,
 				2BE538391D249A1200B60FAD /* MaplyBaseInteractionLayer_private.h in Headers */,
@@ -1718,14 +2077,18 @@
 				2BE5397F1D249BEF00B60FAD /* AAPrecession.h in Headers */,
 				2BE538321D249A1200B60FAD /* MaplyViewTracker.h in Headers */,
 				2BE5385C1D249A1200B60FAD /* MapboxMultiSourceTileInfo.h in Headers */,
+				2BD358C81DD3B6BC00081EA8 /* emitterdef.h in Headers */,
 				2BE538501D249A1200B60FAD /* MaplyVectorObject_private.h in Headers */,
 				2BE538451D249A1200B60FAD /* MaplyQuadImageTilesLayer_private.h in Headers */,
 				2BE539891D249BEF00B60FAD /* AAVenus.h in Headers */,
 				2BE53A1A1D249C2900B60FAD /* wire_format.h in Headers */,
+				2BD358C91DD3B6BC00081EA8 /* emittermanip.h in Headers */,
 				2BE53A7D1D249C4700B60FAD /* type_traits.h in Headers */,
+				2BD358BF1DD3B6BC00081EA8 /* tag.h in Headers */,
 				2BE538631D249A1200B60FAD /* MapboxVectorTiles.h in Headers */,
 				2BE53AAC1D249C9F00B60FAD /* FMDatabaseQueue.h in Headers */,
 				2BE538461D249A1200B60FAD /* MaplyQuadPagingLayer_private.h in Headers */,
+				2BD358E01DD3B6BC00081EA8 /* null.h in Headers */,
 				2BE539851D249BEF00B60FAD /* AASidereal.h in Headers */,
 				2BE539701D249BEF00B60FAD /* AAMoslemCalendar.h in Headers */,
 				2BE53A961D249C9000B60FAD /* DDXMLElement.h in Headers */,
@@ -1741,11 +2104,18 @@
 				2BE538041D249A1200B60FAD /* MaplyComponent.h in Headers */,
 				2BE537FC1D249A1200B60FAD /* MaplyAnnotation.h in Headers */,
 				2BE537FD1D249A1200B60FAD /* MaplyAtmosphere.h in Headers */,
+				2BD358CE1DD3B6BC00081EA8 /* convert.h in Headers */,
 				2BE539871D249BEF00B60FAD /* AASun.h in Headers */,
+				2BD358D91DD3B6BC00081EA8 /* impl.h in Headers */,
 				2BE53A1D1D249C2900B60FAD /* wire_format_lite_inl.h in Headers */,
 				2BE5381C1D249A1200B60FAD /* MaplyQuadPagingLayer.h in Headers */,
+				2BD358C51DD3B6BC00081EA8 /* dll.h in Headers */,
+				2BD3588F1DD3B6BC00081EA8 /* collectionstack.h in Headers */,
 				2BE538201D249A1200B60FAD /* MaplyScreenLabel.h in Headers */,
 				2BE539611D249BEF00B60FAD /* AAGalileanMoons.h in Headers */,
+				2BD358D11DD3B6BC00081EA8 /* iterator.h in Headers */,
+				2BD358D41DD3B6BC00081EA8 /* node.h in Headers */,
+				2BD358CF1DD3B6BC00081EA8 /* bool_type.h in Headers */,
 				2BE537031D2499E500B60FAD /* WhirlyGlobeMaplyComponent.h in Headers */,
 				2BE538261D249A1200B60FAD /* MaplySphericalQuadEarthWithTexGroup.h in Headers */,
 				2BE538581D249A1200B60FAD /* WGInteractionLayer_private.h in Headers */,
@@ -1754,16 +2124,21 @@
 				2BE537F81D249A1200B60FAD /* Maply3dTouchPreviewDelegate.h in Headers */,
 				2BE53A0B1D249C2900B60FAD /* message.h in Headers */,
 				2BE538471D249A1200B60FAD /* MaplyQuadTracker_private.h in Headers */,
+				2BD358BD1DD3B6BC00081EA8 /* stringsource.h in Headers */,
 				2BE539651D249BEF00B60FAD /* AAJewishCalendar.h in Headers */,
+				2BD358D81DD3B6BC00081EA8 /* emit.h in Headers */,
 				2BE53AA61D249C9F00B60FAD /* FMDatabase.h in Headers */,
+				2BD358DB1DD3B6BC00081EA8 /* node.h in Headers */,
 				2BE53A1C1D249C2900B60FAD /* wire_format_lite.h in Headers */,
 				2BE538421D249A1200B60FAD /* MaplyMatrix_private.h in Headers */,
+				2BD358D61DD3B6BC00081EA8 /* node_iterator.h in Headers */,
 				2BE53A661D249C4600B60FAD /* atomicops_internals_arm_qnx.h in Headers */,
 				2BE538331D249A1200B60FAD /* MaplyWMSTileSource.h in Headers */,
 				2BE53A6A1D249C4600B60FAD /* atomicops_internals_pnacl.h in Headers */,
 				2BE5382A1D249A1200B60FAD /* MaplyTexture.h in Headers */,
 				2BE53A3D1D249C3D00B60FAD /* tokenizer.h in Headers */,
 				2BE53A671D249C4600B60FAD /* atomicops_internals_atomicword_compat.h in Headers */,
+				2BD358D21DD3B6BC00081EA8 /* iterator_fwd.h in Headers */,
 				2BE53A321D249C3D00B60FAD /* strtod.h in Headers */,
 				2BE538071D249A1200B60FAD /* MaplyCoordinateSystem.h in Headers */,
 				2BE539711D249BEF00B60FAD /* AANearParabolic.h in Headers */,
@@ -1776,6 +2151,8 @@
 				2BE538151D249A1200B60FAD /* MaplyMultiplexTileSource.h in Headers */,
 				2BE5383F1D249A1200B60FAD /* MaplyGeomModel_private.h in Headers */,
 				2BE539671D249BEF00B60FAD /* AAKepler.h in Headers */,
+				2BD358DF1DD3B6BC00081EA8 /* noncopyable.h in Headers */,
+				2BD358E31DD3B6BC00081EA8 /* stlemitter.h in Headers */,
 				2BE5385B1D249A1200B60FAD /* WhirlyGlobeViewController_private.h in Headers */,
 				2BE53A791D249C4700B60FAD /* strutil.h in Headers */,
 				2BE538051D249A1200B60FAD /* MaplyComponentObject.h in Headers */,
@@ -1785,22 +2162,33 @@
 				2BE538641D249A1200B60FAD /* MaplyVectorStyle.h in Headers */,
 				2BE538281D249A1200B60FAD /* MaplySticker.h in Headers */,
 				E5EF69F81D6B931500A2A660 /* SLDSymbolizers.h in Headers */,
+				2BD358AB1DD3B6BC00081EA8 /* ptr_vector.h in Headers */,
 				2BE53A831D249C7E00B60FAD /* DDXMLPrivate.h in Headers */,
 				2BE538691D249A1200B60FAD /* MaplyVectorTiles.h in Headers */,
 				2BE5383A1D249A1200B60FAD /* MaplyBaseViewController_private.h in Headers */,
+				2BD358B91DD3B6BC00081EA8 /* singledocparser.h in Headers */,
 				2BE53A161D249C2900B60FAD /* text_format.h in Headers */,
 				2BE53A101D249C2900B60FAD /* reflection_ops.h in Headers */,
+				2BD358A61DD3B6BC00081EA8 /* nodeevents.h in Headers */,
+				2BD358C21DD3B6BC00081EA8 /* binary.h in Headers */,
+				2BD358B01DD3B6BC00081EA8 /* scanner.h in Headers */,
+				2BD358BC1DD3B6BC00081EA8 /* streamcharsource.h in Headers */,
 				2BE537FB1D249A1200B60FAD /* MaplyAnimationTestTileSource.h in Headers */,
+				2BD358C41DD3B6BC00081EA8 /* graphbuilder.h in Headers */,
 				2BE538701D249A1200B60FAD /* WGCoordinate.h in Headers */,
 				2BE5382F1D249A1200B60FAD /* MaplyVertexAttribute.h in Headers */,
 				2BE53A141D249C2900B60FAD /* service.h in Headers */,
 				2BE537FF1D249A1200B60FAD /* MaplyBillboard.h in Headers */,
 				2BE539831D249BEF00B60FAD /* AASaturnMoons.h in Headers */,
+				2BD358BB1DD3B6BC00081EA8 /* stream.h in Headers */,
 				2BE539F61D249C2900B60FAD /* arena.h in Headers */,
 				2BE538491D249A1200B60FAD /* MaplyScreenObject_private.h in Headers */,
 				2BE538001D249A1200B60FAD /* MaplyBlankTileSource.h in Headers */,
 				2BE5385A1D249A1200B60FAD /* WGViewControllerLayer_private.h in Headers */,
+				2BD358D01DD3B6BC00081EA8 /* impl.h in Headers */,
+				2BD358D31DD3B6BC00081EA8 /* memory.h in Headers */,
 				2BE538651D249A1200B60FAD /* MaplyVectorStyleSimple.h in Headers */,
+				2BD358CB1DD3B6BC00081EA8 /* eventhandler.h in Headers */,
 				2BE53A701D249C4600B60FAD /* hash.h in Headers */,
 				2BE53A931D249C9000B60FAD /* DDXML.h in Headers */,
 				2BE538541D249A1200B60FAD /* PanDelegateFixed.h in Headers */,
@@ -1815,16 +2203,19 @@
 				2BE53A381D249C3D00B60FAD /* gzip_stream.h in Headers */,
 				2BE53A181D249C2900B60FAD /* unknown_field_set.h in Headers */,
 				2BE5396E1D249BEF00B60FAD /* AAMoonPerigeeApogee.h in Headers */,
+				2BD358B21DD3B6BC00081EA8 /* scanscalar.h in Headers */,
 				2BE538081D249A1200B60FAD /* MaplyElevationDatabase.h in Headers */,
 				2BE5382B1D249A1200B60FAD /* MaplyTextureBuilder.h in Headers */,
 				2BE53A651D249C4600B60FAD /* atomicops_internals_arm_gcc.h in Headers */,
 				2BE539791D249BEF00B60FAD /* AAPhysicalMars.h in Headers */,
+				2BD358951DD3B6BC00081EA8 /* directives.h in Headers */,
 				2BE53A7B1D249C4700B60FAD /* substitute.h in Headers */,
 				2BE538011D249A1200B60FAD /* MaplyBridge.h in Headers */,
 				2BE53AAA1D249C9F00B60FAD /* FMDatabasePool.h in Headers */,
 				2BE539F81D249C2900B60FAD /* arenastring.h in Headers */,
 				2BE5384D1D249A1200B60FAD /* MaplyTexture_private.h in Headers */,
 				2BE538561D249A1200B60FAD /* SelectObject_private.h in Headers */,
+				2BD358C11DD3B6BC00081EA8 /* anchor.h in Headers */,
 				2BE539FC1D249C2900B60FAD /* descriptor.pb.h in Headers */,
 				2BE53A091D249C2900B60FAD /* generated_message_util.h in Headers */,
 				2BE538171D249A1200B60FAD /* MaplyPagingVectorTestTileSource.h in Headers */,
@@ -1835,17 +2226,22 @@
 				2BE5394E1D249BEF00B60FAD /* AA+.h in Headers */,
 				2BE538711D249A1200B60FAD /* WhirlyGlobeComponent.h in Headers */,
 				2BE539771D249BEF00B60FAD /* AAParallax.h in Headers */,
+				2BD3589A1DD3B6BC00081EA8 /* emitterstate.h in Headers */,
 				2BE538251D249A1200B60FAD /* MaplySharedAttributes.h in Headers */,
 				2BE538531D249A1200B60FAD /* MaplyViewControllerLayer_private.h in Headers */,
+				2BD358E51DD3B6BC00081EA8 /* yaml.h in Headers */,
 				2BE5384A1D249A1200B60FAD /* MaplyShader_private.h in Headers */,
+				2BD358CC1DD3B6BC00081EA8 /* exceptions.h in Headers */,
 				2BE53A7C1D249C4700B60FAD /* template_util.h in Headers */,
 				2BE53A6E1D249C4600B60FAD /* atomicops_internals_x86_msvc.h in Headers */,
 				2BE538021D249A1200B60FAD /* MaplyCluster.h in Headers */,
 				2BE539861D249BEF00B60FAD /* AAStellarMagnitudes.h in Headers */,
+				2BD358DC1DD3B6BC00081EA8 /* parse.h in Headers */,
 				E5EB67AE1D6DD1C000FB3679 /* SLDWellKnownMarkers.h in Headers */,
 				2BE5395A1D249BEF00B60FAD /* AAEclipses.h in Headers */,
 				2BE539FF1D249C2900B60FAD /* descriptor_database.h in Headers */,
 				2BE539561D249BEF00B60FAD /* AADiameters.h in Headers */,
+				2BD358DA1DD3B6BC00081EA8 /* iterator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1965,10 +2361,12 @@
 				2BE53A771D249C4700B60FAD /* structurally_valid.cc in Sources */,
 				2BE539C11D249BEF00B60FAD /* AASun.cpp in Sources */,
 				2BE538A51D249A1200B60FAD /* MaplyTexture.mm in Sources */,
+				2BD358B11DD3B6BC00081EA8 /* scanscalar.cpp in Sources */,
 				2BE5398E1D249BEF00B60FAD /* AACoordinateTransformation.cpp in Sources */,
 				2BE53A151D249C2900B60FAD /* text_format.cc in Sources */,
 				2BE539A01D249BEF00B60FAD /* AAJupiter.cpp in Sources */,
 				2BE53A951D249C9000B60FAD /* DDXMLDocument.m in Sources */,
+				2BD358A81DD3B6BC00081EA8 /* ostream_wrapper.cpp in Sources */,
 				2BE538A41D249A1200B60FAD /* MaplySun.mm in Sources */,
 				2BE538A81D249A1200B60FAD /* MaplyTileSource.mm in Sources */,
 				2BE539B31D249BEF00B60FAD /* AAPhysicalMars.cpp in Sources */,
@@ -1985,11 +2383,14 @@
 				2BE53A341D249C3D00B60FAD /* coded_stream.cc in Sources */,
 				2BE5388E1D249A1200B60FAD /* MaplyMBTileSource.mm in Sources */,
 				2BE53A6B1D249C4600B60FAD /* atomicops_internals_x86_gcc.cc in Sources */,
+				2BD358B31DD3B6BC00081EA8 /* scantag.cpp in Sources */,
 				2BE538821D249A1200B60FAD /* MaplyElevationDatabase.mm in Sources */,
 				2BE539F21D249C2900B60FAD /* any.cc in Sources */,
 				2BE538891D249A1200B60FAD /* MaplyInteractionLayer.mm in Sources */,
+				2BD358AC1DD3B6BC00081EA8 /* regex_yaml.cpp in Sources */,
 				2BE539A11D249BEF00B60FAD /* AAKepler.cpp in Sources */,
 				2BE53A711D249C4600B60FAD /* once.cc in Sources */,
+				2BD358991DD3B6BC00081EA8 /* emitterstate.cpp in Sources */,
 				2BE539AF1D249BEF00B60FAD /* AAParabolic.cpp in Sources */,
 				2BE538B41D249A1200B60FAD /* TiltDelegate.mm in Sources */,
 				2BE538CC1D249A1200B60FAD /* WGViewControllerLayer.mm in Sources */,
@@ -2006,6 +2407,7 @@
 				E56DB3D81D6B1B5A007000D2 /* SLDStyleSet.m in Sources */,
 				2BE538C91D249A1200B60FAD /* WGCoordinate.mm in Sources */,
 				2BE539B61D249BEF00B60FAD /* AAPlanetaryPhenomena.cpp in Sources */,
+				2BD358B71DD3B6BC00081EA8 /* simplekey.cpp in Sources */,
 				2BE539AE1D249BEF00B60FAD /* AANutation.cpp in Sources */,
 				2BE539BB1D249BEF00B60FAD /* AARiseTransitSet.cpp in Sources */,
 				2BE53A971D249C9000B60FAD /* DDXMLElement.m in Sources */,
@@ -2016,23 +2418,32 @@
 				2BE539B21D249BEF00B60FAD /* AAPhysicalJupiter.cpp in Sources */,
 				2BE53A6F1D249C4600B60FAD /* common.cc in Sources */,
 				2BE539B81D249BEF00B60FAD /* AAPluto.cpp in Sources */,
+				2BD358911DD3B6BC00081EA8 /* graphbuilderadapter.cpp in Sources */,
+				2BD358931DD3B6BC00081EA8 /* convert.cpp in Sources */,
 				2BE539A51D249BEF00B60FAD /* AAMoonIlluminatedFraction.cpp in Sources */,
 				2BE5399B1D249BEF00B60FAD /* AAGalileanMoons.cpp in Sources */,
 				2BE538B01D249A1200B60FAD /* NSData+Zlib.m in Sources */,
 				2BE53A131D249C2900B60FAD /* service.cc in Sources */,
 				2BE539B51D249BEF00B60FAD /* AAPhysicalSun.cpp in Sources */,
 				2BE53AAD1D249C9F00B60FAD /* FMDatabaseQueue.m in Sources */,
+				2BD358971DD3B6BC00081EA8 /* emitfromevents.cpp in Sources */,
 				2BE538BD1D249A1200B60FAD /* MaplyVectorStyle.mm in Sources */,
 				2BE538931D249A1200B60FAD /* MaplyParticleSystem.mm in Sources */,
+				2BD358BA1DD3B6BC00081EA8 /* stream.cpp in Sources */,
 				2BE539BA1D249BEF00B60FAD /* AARefraction.cpp in Sources */,
 				2BE539AA1D249BEF00B60FAD /* AAMoslemCalendar.cpp in Sources */,
 				2BE538C41D249A1200B60FAD /* MaplyVectorTileTextStyle.mm in Sources */,
 				2BE538941D249A1200B60FAD /* MaplyPoints.mm in Sources */,
 				2BE538861D249A1200B60FAD /* MaplyGeomModel.mm in Sources */,
+				2BD358AA1DD3B6BC00081EA8 /* parser.cpp in Sources */,
+				2BD358981DD3B6BC00081EA8 /* emitter.cpp in Sources */,
+				2BD358A11DD3B6BC00081EA8 /* node.cpp in Sources */,
 				2BE538751D249A1200B60FAD /* MaplyAerisTiles.mm in Sources */,
 				2BE53A1B1D249C2900B60FAD /* wire_format_lite.cc in Sources */,
 				2BE539A31D249BEF00B60FAD /* AAMercury.cpp in Sources */,
 				2BE538A21D249A1200B60FAD /* MaplyStarsModel.mm in Sources */,
+				2BD3589B1DD3B6BC00081EA8 /* emitterutils.cpp in Sources */,
+				2BD3589D1DD3B6BC00081EA8 /* exp.cpp in Sources */,
 				2BE53A991D249C9000B60FAD /* DDXMLNode.m in Sources */,
 				2BE5399A1D249BEF00B60FAD /* AAFK5.cpp in Sources */,
 				2BE5389D1D249A1200B60FAD /* MaplyScreenObject.mm in Sources */,
@@ -2051,6 +2462,7 @@
 				2BE5398C1D249BEF00B60FAD /* AAAngularSeparation.cpp in Sources */,
 				2BE538AD1D249A1200B60FAD /* MaplyViewControllerLayer.mm in Sources */,
 				2BE539961D249BEF00B60FAD /* AAElementsPlanetaryOrbit.cpp in Sources */,
+				2BD358A21DD3B6BC00081EA8 /* node_data.cpp in Sources */,
 				2BE538A71D249A1200B60FAD /* MaplyTextureBuilder.mm in Sources */,
 				2BE538AC1D249A1200B60FAD /* MaplyViewController.mm in Sources */,
 				2BE538911D249A1200B60FAD /* MaplyPagingElevationTestTileSource.mm in Sources */,
@@ -2063,10 +2475,13 @@
 				2BE539A61D249BEF00B60FAD /* AAMoonMaxDeclinations.cpp in Sources */,
 				2BE538741D249A1200B60FAD /* MaplyActiveObject.mm in Sources */,
 				2BE538791D249A1200B60FAD /* MaplyBaseInteractionLayer.mm in Sources */,
+				2BD3588E1DD3B6BC00081EA8 /* binary.cpp in Sources */,
 				2BE538991D249A1200B60FAD /* MaplyRemoteTileElevationSource.mm in Sources */,
+				2BD358A01DD3B6BC00081EA8 /* memory.cpp in Sources */,
 				2BE539AC1D249BEF00B60FAD /* AANeptune.cpp in Sources */,
 				2BE539B41D249BEF00B60FAD /* AAPhysicalMoon.cpp in Sources */,
 				2BE53A061D249C2900B60FAD /* generated_message_reflection.cc in Sources */,
+				2BD358941DD3B6BC00081EA8 /* directives.cpp in Sources */,
 				2BE5398D1D249BEF00B60FAD /* AABinaryStar.cpp in Sources */,
 				2BE538CD1D249A1200B60FAD /* WhirlyGlobeViewController.mm in Sources */,
 				2BE53A371D249C3D00B60FAD /* gzip_stream.cc in Sources */,
@@ -2075,18 +2490,22 @@
 				2BE5389B1D249A1200B60FAD /* MaplyScreenLabel.m in Sources */,
 				2BE539911D249BEF00B60FAD /* AADynamicalTime.cpp in Sources */,
 				2BE538951D249A1200B60FAD /* MaplyQuadImageOfflineLayer.mm in Sources */,
+				2BD358901DD3B6BC00081EA8 /* graphbuilder.cpp in Sources */,
 				2BE53AAB1D249C9F00B60FAD /* FMDatabasePool.m in Sources */,
 				2BE539B01D249BEF00B60FAD /* AAParallactic.cpp in Sources */,
 				2BE53A0F1D249C2900B60FAD /* reflection_ops.cc in Sources */,
 				2BE53A3A1D249C3D00B60FAD /* printer.cc in Sources */,
 				2BE538BE1D249A1200B60FAD /* MaplyVectorStyleSimple.m in Sources */,
+				2BD358AF1DD3B6BC00081EA8 /* scanner.cpp in Sources */,
 				2BE538AE1D249A1200B60FAD /* MaplyViewTracker.m in Sources */,
 				2BE53A871D249C8300B60FAD /* NSString+DDXML.m in Sources */,
 				2BE5388C1D249A1200B60FAD /* MaplyMarker.m in Sources */,
 				2BE539A71D249BEF00B60FAD /* AAMoonNodes.cpp in Sources */,
 				2BE5387F1D249A1200B60FAD /* MaplyComponentObject.mm in Sources */,
+				2BD358BE1DD3B6BC00081EA8 /* tag.cpp in Sources */,
 				2BE538871D249A1200B60FAD /* MaplyIconManager.mm in Sources */,
 				2BE53A611D249C4600B60FAD /* int128.cc in Sources */,
+				2BD358A31DD3B6BC00081EA8 /* nodebuilder.cpp in Sources */,
 				2BE539931D249BEF00B60FAD /* AAEaster.cpp in Sources */,
 				2BE539F91D249C2900B60FAD /* descriptor.cc in Sources */,
 				2BE538841D249A1200B60FAD /* MaplyGDALRetileSource.mm in Sources */,
@@ -2094,8 +2513,10 @@
 				2BE5398F1D249BEF00B60FAD /* AADate.cpp in Sources */,
 				2BE538801D249A1200B60FAD /* MaplyCoordinate.mm in Sources */,
 				2BE5399C1D249BEF00B60FAD /* AAGlobe.cpp in Sources */,
+				2BD358ED1DD3B99900081EA8 /* TangramStyleSet.mm in Sources */,
 				2BE538961D249A1200B60FAD /* MaplyQuadImageTilesLayer.mm in Sources */,
 				2BE538851D249A1200B60FAD /* MaplyGeomBuilder.mm in Sources */,
+				2BD358A71DD3B6BC00081EA8 /* null.cpp in Sources */,
 				2BE538BC1D249A1200B60FAD /* MapboxVectorTiles.mm in Sources */,
 				2BE538A61D249A1200B60FAD /* MaplyTextureAtlas.mm in Sources */,
 				2BE538731D249A1200B60FAD /* Maply3dTouchPreviewDelegate.mm in Sources */,
@@ -2114,6 +2535,8 @@
 				2BE538BF1D249A1200B60FAD /* MaplyVectorTileLineStyle.mm in Sources */,
 				2BE539F31D249C2900B60FAD /* map_field.cc in Sources */,
 				2BE53A401D249C3D00B60FAD /* zero_copy_stream_impl.cc in Sources */,
+				2BD358B81DD3B6BC00081EA8 /* singledocparser.cpp in Sources */,
+				2BD358B51DD3B6BC00081EA8 /* scantoken.cpp in Sources */,
 				2BE538971D249A1200B60FAD /* MaplyQuadPagingLayer.mm in Sources */,
 				2BE53A8B1D249C8900B60FAD /* DDXMLElementAdditions.m in Sources */,
 				2BE539A41D249BEF00B60FAD /* AAMoon.cpp in Sources */,
@@ -2121,6 +2544,7 @@
 				2BE538A91D249A1200B60FAD /* MaplyUpdateLayer.mm in Sources */,
 				2BE5387C1D249A1200B60FAD /* MaplyBlankTileSource.m in Sources */,
 				2BE53A0C1D249C2900B60FAD /* message_lite.cc in Sources */,
+				2BD358961DD3B6BC00081EA8 /* emit.cpp in Sources */,
 				E5EB67AB1D6DD19700FB3679 /* SLDWellKnownMarkers.m in Sources */,
 				2BE538C61D249A1200B60FAD /* MapnikStyleRule.m in Sources */,
 				2BE538881D249A1200B60FAD /* MaplyImageTile.mm in Sources */,
@@ -2140,6 +2564,7 @@
 				2BE538811D249A1200B60FAD /* MaplyCoordinateSystem.mm in Sources */,
 				2BE539C21D249BEF00B60FAD /* AAUranus.cpp in Sources */,
 				2BE53A001D249C2900B60FAD /* dynamic_message.cc in Sources */,
+				2BD358A91DD3B6BC00081EA8 /* parse.cpp in Sources */,
 				2BE53A781D249C4700B60FAD /* strutil.cc in Sources */,
 				2BE539991D249BEF00B60FAD /* AAEquinoxesAndSolstices.cpp in Sources */,
 				2BE538761D249A1200B60FAD /* MaplyAnimationTestTileSource.m in Sources */,
@@ -2153,6 +2578,7 @@
 				2BE5388F1D249A1200B60FAD /* MaplyMoon.mm in Sources */,
 				2BE539F71D249C2900B60FAD /* arenastring.cc in Sources */,
 				2BE538981D249A1200B60FAD /* MaplyQuadTracker.mm in Sources */,
+				2BD358A51DD3B6BC00081EA8 /* nodeevents.cpp in Sources */,
 				2BE53A0A1D249C2900B60FAD /* message.cc in Sources */,
 				2BE53A331D249C3D00B60FAD /* strtod.cc in Sources */,
 				2BE5387B1D249A1200B60FAD /* MaplyBillboard.mm in Sources */,
@@ -2302,6 +2728,7 @@
 					"../../third-party/fmdb/src/fmdb/",
 					"\"$(SDKROOT)/usr/include/libxml2\"",
 					../local_libs/aaplus,
+					"../local_libs/yaml-cpp/include/",
 				);
 				INFOPLIST_FILE = WhirlyGlobeMaplyComponent/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2343,6 +2770,7 @@
 					"../../third-party/fmdb/src/fmdb/",
 					"\"$(SDKROOT)/usr/include/libxml2\"",
 					../local_libs/aaplus,
+					"../local_libs/yaml-cpp/include/",
 				);
 				INFOPLIST_FILE = WhirlyGlobeMaplyComponent/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

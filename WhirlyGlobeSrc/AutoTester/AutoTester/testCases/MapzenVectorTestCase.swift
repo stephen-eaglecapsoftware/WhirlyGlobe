@@ -25,7 +25,8 @@ class MapzenVectorTestCase: MaplyTestCase {
         
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + Double(Int64(1 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC), execute: {
             
-            let styleData = try? Data(contentsOf: URL(fileURLWithPath: Bundle.main.path(forResource: "MapzenSLDStyle", ofType: "sld")!))
+//            let styleData = try? Data(contentsOf: URL(fileURLWithPath: Bundle.main.path(forResource: "MapzenSLDStyle", ofType: "sld")!))
+            let styleData = try? Data(contentsOf: URL(fileURLWithPath: Bundle.main.path(forResource: "cinnabar-style-more-labels", ofType: "yaml")!))
             
             let mzSource = MapzenSource(
                 base: "http://vector.mapzen.com/osm",
@@ -33,7 +34,8 @@ class MapzenVectorTestCase: MaplyTestCase {
                 apiKey: "vector-tiles-ejNTZ28",
                 sourceType: MapzenSourcePBF,
                 styleData: styleData,
-                styleType: .sldStyle,
+//                styleType: .sldStyle,
+                styleType: .tangramStyle,
                 viewC: baseVC)
             
             mzSource?.minZoom = Int32(0)

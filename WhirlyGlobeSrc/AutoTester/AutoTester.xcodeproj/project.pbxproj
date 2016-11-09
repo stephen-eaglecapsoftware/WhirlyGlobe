@@ -33,6 +33,7 @@
 		2BC0FB7A1DCAA574004125F1 /* dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC0FB791DCAA574004125F1 /* dots.png */; };
 		2BC2DCCD1D1F4CE20088D350 /* ShapefileTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC2DCCC1D1F4CE20088D350 /* ShapefileTestCase.m */; };
 		2BC2DCF01D2345AF0088D350 /* PagingLayerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC2DCEF1D2345AF0088D350 /* PagingLayerTestCase.m */; };
+		2BD358E71DD3B95C00081EA8 /* cinnabar-style-more-labels.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 2BD358E61DD3B95C00081EA8 /* cinnabar-style-more-labels.yaml */; };
 		2BDEB3021C924842003259B3 /* ExtrudedModelTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEB3011C924842003259B3 /* ExtrudedModelTestCase.m */; };
 		2BDEB3141C9391EB003259B3 /* GreatCircleTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEB3131C9391EB003259B3 /* GreatCircleTestCase.m */; };
 		2BDEB3361C989D18003259B3 /* CartoDBLightTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEB3351C989D18003259B3 /* CartoDBLightTestCase.m */; };
@@ -586,6 +587,7 @@
 		2BC2DCCC1D1F4CE20088D350 /* ShapefileTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapefileTestCase.m; sourceTree = "<group>"; };
 		2BC2DCEE1D2345AF0088D350 /* PagingLayerTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagingLayerTestCase.h; sourceTree = "<group>"; };
 		2BC2DCEF1D2345AF0088D350 /* PagingLayerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagingLayerTestCase.m; sourceTree = "<group>"; };
+		2BD358E61DD3B95C00081EA8 /* cinnabar-style-more-labels.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "cinnabar-style-more-labels.yaml"; sourceTree = "<group>"; };
 		2BDEB3001C924842003259B3 /* ExtrudedModelTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtrudedModelTestCase.h; sourceTree = "<group>"; };
 		2BDEB3011C924842003259B3 /* ExtrudedModelTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtrudedModelTestCase.m; sourceTree = "<group>"; };
 		2BDEB3121C9391EB003259B3 /* GreatCircleTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreatCircleTestCase.h; sourceTree = "<group>"; };
@@ -1569,6 +1571,7 @@
 		88FF5C691BC31D6D002F15CE /* mapzen vectors */ = {
 			isa = PBXGroup;
 			children = (
+				2BD358E61DD3B95C00081EA8 /* cinnabar-style-more-labels.yaml */,
 				88FF5C6A1BC31D6D002F15CE /* MapzenGLStyle.json */,
 				88FF5C6B1BC31D6D002F15CE /* MapzenStyles.json */,
 				E5EF69EF1D6B573700A2A660 /* MapzenSLDStyle.sld */,
@@ -2365,6 +2368,7 @@
 				88FF5E661BC31D95002F15CE /* JEY.geojson in Resources */,
 				88FF5EA01BC31D95002F15CE /* OMN.geojson in Resources */,
 				88FF5E071BC31D95002F15CE /* BEL.geojson in Resources */,
+				2BD358E71DD3B95C00081EA8 /* cinnabar-style-more-labels.yaml in Resources */,
 				88FF5EA41BC31D95002F15CE /* PER.geojson in Resources */,
 				88FF5E791BC31D95002F15CE /* LTU.geojson in Resources */,
 				88FF5CD41BC31D6D002F15CE /* skiing-24@2x.png in Resources */,

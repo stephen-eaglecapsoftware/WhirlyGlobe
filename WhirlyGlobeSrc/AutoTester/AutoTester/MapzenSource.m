@@ -10,6 +10,7 @@
 #import "MapboxVectorTiles.h"
 #import "MapnikStyleSet.h"
 #import "SLDStyleSet.h"
+#import "TangramStyleSet.h"
 
 @implementation MapzenSource
 {
@@ -56,6 +57,12 @@
                     [sldStyleSet loadSldData:styleData baseURL:[NSURL URLWithString:baseURL]];
                     styleSet = sldStyleSet;
                 }
+                case MapnikTangramStyle:
+                {
+                    TangramStyleSet *tStyleSet = [[TangramStyleSet alloc] initWithViewC:viewC];
+                    [tStyleSet loadYAML:styleData];
+                }
+                    break;
                     break;
             }
                         
