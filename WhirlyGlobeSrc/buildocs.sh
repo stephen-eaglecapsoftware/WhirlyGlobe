@@ -1,1 +1,1 @@
-appledoc --project-name WhirlyGlobe-Maply --project-company "mousebird consulting inc" --company-id com.mousebirdconsulting --output ~/appledocs ./WhirlyGlobeLib/include/ ./WhirlyGlobe-MaplyComponent/include/
+jazzy   --clean   --author "mousebird consulting inc"  --author_url https://mousebirdconsulting.com --github_url https://github.com/mousebird/WhirlyGlobe  --module-version 2.5 --module WhirlyGlobe-Maply  --output docs/objc --objc --umbrella-header include/WhirlyGlobeComponent.h -framework-root .
