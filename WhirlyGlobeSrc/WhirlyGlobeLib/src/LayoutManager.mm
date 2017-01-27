@@ -318,10 +318,16 @@ Matrix2d LayoutManager::calcScreenRot(float &screenRot,WhirlyKitViewState *viewS
     
     // Use the resulting x & y
     screenRot = atan2(projRot.y(),projRot.x())-M_PI/2.0;
+    
+    NSLog(@"screenRot = %f",screenRot / M_PI * 180.0);
+
     // Keep the labels upright
     if (ssObj->keepUpright)
-        if (screenRot > M_PI/2 && screenRot < 3*M_PI/2)
+        if (screenRot < -M_PI/2 && screenRot > -3*M_PI/2)
+        {
             screenRot = screenRot + M_PI;
+            NSLog(@"(2) screenRot = %f",screenRot / M_PI * 180.0);
+        }
     Matrix2d screenRotMat;
     screenRotMat = Eigen::Rotation2Dd(screenRot);
     
@@ -593,7 +599,7 @@ bool LayoutManager::runLayoutRules(WhirlyKitViewState *viewState,std::vector<Clu
             isActive &= isInside;
             
             // Deal with the rotation
-            if (layoutObj->obj.rotation != 0.0)
+            if (isActive && layoutObj->obj.rotation != 0.0)
                 screenRotMat = calcScreenRot(screenRot,viewState,globeViewState,&layoutObj->obj,objPt,modelTrans,normalMat,frameBufferSize);
             
             // Now for the overlap checks

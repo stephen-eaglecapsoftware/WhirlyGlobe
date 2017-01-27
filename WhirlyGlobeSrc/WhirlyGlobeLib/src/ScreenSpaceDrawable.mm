@@ -108,6 +108,7 @@ static const char *vertexShaderTri =
 "uniform float u_fade;"
 "uniform vec2  u_scale;"
 "uniform bool  u_activerot;"
+"uniform bool  u_upright;"
 ""
 "attribute vec3 a_position;"
 "attribute vec3 a_normal;"
@@ -135,6 +136,8 @@ static const char *vertexShaderTri =
 "   screenPt /= screenPt.w;"
 // Project the rotation into display space and drop the Z
 "   vec4 projRot = u_mvNormalMatrix * vec4(a_rot,0.0);"
+"   if (u_upright && projRot.x < 0.0)"
+"      projRot.x *= -1.0;"
 "   vec2 rotY = normalize(projRot.xy);"
 "   vec2 rotX = vec2(rotY.y,-rotY.x);"
 "   vec2 screenOffset = (u_activerot ? a_offset.x*rotX + a_offset.y*rotY : a_offset);"
