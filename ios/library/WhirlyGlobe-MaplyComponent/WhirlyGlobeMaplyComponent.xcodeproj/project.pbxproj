@@ -1038,6 +1038,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B3A5C381EBA8B8400106F2C /* MaplyMapzenElevation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaplyMapzenElevation.h; sourceTree = "<group>"; };
 		2B82B3A11E82E2490095FB14 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common.h; path = "/Users/sjg/iPhone/WhirlyGlobe2/ios/third-party/octencoding/../../../common/local_libs/octencoding/common.h"; sourceTree = "<absolute>"; };
 		2B82B3A21E82E2490095FB14 /* eqarea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eqarea.h; path = "/Users/sjg/iPhone/WhirlyGlobe2/ios/third-party/octencoding/../../../common/local_libs/octencoding/eqarea.h"; sourceTree = "<absolute>"; };
 		2B82B3A31E82E2490095FB14 /* eqdist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eqdist.h; path = "/Users/sjg/iPhone/WhirlyGlobe2/ios/third-party/octencoding/../../../common/local_libs/octencoding/eqdist.h"; sourceTree = "<absolute>"; };
@@ -3210,6 +3211,7 @@
 				2BE537571D249A1200B60FAD /* MaplyWMSTileSource.h */,
 				2BE537581D249A1200B60FAD /* NSData+Zlib.h */,
 				2BE537591D249A1200B60FAD /* NSDictionary+StyleRules.h */,
+				2B3A5C381EBA8B8400106F2C /* MaplyMapzenElevation.h */,
 				2BE5375A1D249A1200B60FAD /* private */,
 				2BE537811D249A1200B60FAD /* vector_tiles */,
 				2BE537961D249A1200B60FAD /* WGCoordinate.h */,

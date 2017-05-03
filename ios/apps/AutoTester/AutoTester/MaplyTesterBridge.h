@@ -47,5 +47,6 @@
 #import "ActiveObjectTestCase.h"
 #import "GeoJSONSource.h"
 #import "LIDARTestCase.h"
+#import "MapzenElevationTestCase.h"
 
 #endif

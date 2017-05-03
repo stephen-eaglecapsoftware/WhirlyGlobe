@@ -12,6 +12,7 @@
 		2B1C26531C91037100C71B0A /* France.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 2B1C26511C9100A500C71B0A /* France.mbtiles */; };
 		2B2A417E1D83454900098E12 /* ActiveObjectTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A417D1D83454900098E12 /* ActiveObjectTestCase.m */; };
 		2B392B711C5AC59D001EE40B /* RunwayBuilderTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B392B701C5AC59D001EE40B /* RunwayBuilderTestCase.m */; };
+		2B3A5C351EBA884C00106F2C /* MapzenElevationTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3A5C341EBA884C00106F2C /* MapzenElevationTestCase.m */; };
 		2B4BA6CE1C83A22000DC1562 /* leftbend.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BA6C21C83A22000DC1562 /* leftbend.geojson */; };
 		2B4BA6CF1C83A22000DC1562 /* leftv.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BA6C31C83A22000DC1562 /* leftv.geojson */; };
 		2B4BA6D01C83A22000DC1562 /* mowing-lawn.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BA6C41C83A22000DC1562 /* mowing-lawn.geojson */; };
@@ -596,6 +597,8 @@
 		2B2A417D1D83454900098E12 /* ActiveObjectTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveObjectTestCase.m; sourceTree = "<group>"; };
 		2B392B6F1C5AC59D001EE40B /* RunwayBuilderTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunwayBuilderTestCase.h; sourceTree = "<group>"; };
 		2B392B701C5AC59D001EE40B /* RunwayBuilderTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunwayBuilderTestCase.m; sourceTree = "<group>"; };
+		2B3A5C331EBA884C00106F2C /* MapzenElevationTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapzenElevationTestCase.h; sourceTree = "<group>"; };
+		2B3A5C341EBA884C00106F2C /* MapzenElevationTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapzenElevationTestCase.m; sourceTree = "<group>"; };
 		2B4BA6C21C83A22000DC1562 /* leftbend.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = leftbend.geojson; path = ../WhirlyGlobeComponentTester/resources/leftbend.geojson; sourceTree = "<group>"; };
 		2B4BA6C31C83A22000DC1562 /* leftv.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = leftv.geojson; path = ../WhirlyGlobeComponentTester/resources/leftv.geojson; sourceTree = "<group>"; };
 		2B4BA6C41C83A22000DC1562 /* mowing-lawn.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "mowing-lawn.geojson"; path = "../WhirlyGlobeComponentTester/resources/mowing-lawn.geojson"; sourceTree = "<group>"; };
@@ -1324,6 +1327,8 @@
 				D84433EA1C14E4E700A52117 /* CartoDBTestCase.m */,
 				D8DCCCAA1BDC1A1200BA3866 /* CesiumElevationTestCase.h */,
 				D8DCCCAB1BDC1A1200BA3866 /* CesiumElevationTestCase.m */,
+				2B3A5C331EBA884C00106F2C /* MapzenElevationTestCase.h */,
+				2B3A5C341EBA884C00106F2C /* MapzenElevationTestCase.m */,
 				D8228AA71BE786BE001D6914 /* ClusteredMarkersTestCase.swift */,
 				D84AA59A1C1A2E9900413B76 /* ElevationLocalDatabase.h */,
 				D84AA59B1C1A2E9900413B76 /* ElevationLocalDatabase.m */,
@@ -2670,6 +2675,7 @@
 				D8341A731BE2DFE100411A46 /* ScreenLabelsTestCase.swift in Sources */,
 				8895D8B01CA4ABA9004387FB /* ParticleTest.m in Sources */,
 				E5D2D6751DEDEABF00E02305 /* AnimationDelegateTestCase.swift in Sources */,
+				2B3A5C351EBA884C00106F2C /* MapzenElevationTestCase.m in Sources */,
 				D880112F1BFD16A900606EC6 /* DropboxViewController.swift in Sources */,
 				D8E12ECD1BDE9FD500BB7BC7 /* AnimatedBasemapTestCase.swift in Sources */,
 				D84433EE1C14E4FE00A52117 /* CartoDBLayer.m in Sources */,
