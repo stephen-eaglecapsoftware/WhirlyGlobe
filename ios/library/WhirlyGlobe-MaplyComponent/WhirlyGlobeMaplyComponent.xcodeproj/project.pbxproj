@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3A5C3D1EBA964400106F2C /* MaplyMapzenElevation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B3A5C3C1EBA964400106F2C /* MaplyMapzenElevation.mm */; };
 		2B82B5CA1E82E2490095FB14 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B82B3A11E82E2490095FB14 /* common.h */; };
 		2B82B5CB1E82E2490095FB14 /* eqarea.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B82B3A21E82E2490095FB14 /* eqarea.h */; };
 		2B82B5CC1E82E2490095FB14 /* eqdist.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B82B3A31E82E2490095FB14 /* eqdist.h */; };
@@ -1039,6 +1040,7 @@
 
 /* Begin PBXFileReference section */
 		2B3A5C381EBA8B8400106F2C /* MaplyMapzenElevation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaplyMapzenElevation.h; sourceTree = "<group>"; };
+		2B3A5C3C1EBA964400106F2C /* MaplyMapzenElevation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MaplyMapzenElevation.mm; sourceTree = "<group>"; };
 		2B82B3A11E82E2490095FB14 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common.h; path = "/Users/sjg/iPhone/WhirlyGlobe2/ios/third-party/octencoding/../../../common/local_libs/octencoding/common.h"; sourceTree = "<absolute>"; };
 		2B82B3A21E82E2490095FB14 /* eqarea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eqarea.h; path = "/Users/sjg/iPhone/WhirlyGlobe2/ios/third-party/octencoding/../../../common/local_libs/octencoding/eqarea.h"; sourceTree = "<absolute>"; };
 		2B82B3A31E82E2490095FB14 /* eqdist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eqdist.h; path = "/Users/sjg/iPhone/WhirlyGlobe2/ios/third-party/octencoding/../../../common/local_libs/octencoding/eqdist.h"; sourceTree = "<absolute>"; };
@@ -3373,6 +3375,7 @@
 				2BE537F31D249A1200B60FAD /* WGSphericalEarthWithTexGroup.mm */,
 				2BE537F41D249A1200B60FAD /* WGViewControllerLayer.mm */,
 				2BE537F51D249A1200B60FAD /* WhirlyGlobeViewController.mm */,
+				2B3A5C3C1EBA964400106F2C /* MaplyMapzenElevation.mm */,
 			);
 			name = src;
 			path = ../src;
@@ -4613,6 +4616,7 @@
 				2BE538CD1D249A1200B60FAD /* WhirlyGlobeViewController.mm in Sources */,
 				2B82B7A51E82E24B0095FB14 /* VectorManager.mm in Sources */,
 				2B82B5D91E82E2490095FB14 /* glues_project.c in Sources */,
+				2B3A5C3D1EBA964400106F2C /* MaplyMapzenElevation.mm in Sources */,
 				2BE53A371D249C3D00B60FAD /* gzip_stream.cc in Sources */,
 				2B82B6A21E82E24A0095FB14 /* pj_pr_list.c in Sources */,
 				2BE538831D249A1200B60FAD /* MaplyElevationSource.mm in Sources */,

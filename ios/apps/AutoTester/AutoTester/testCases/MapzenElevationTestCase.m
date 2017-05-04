@@ -16,6 +16,10 @@
 
 
 @implementation MapzenElevationTestCase
+{
+    MaplyRemoteTileElevationMapzenSource *mapzenElev;
+    MaplyElevationSourceTester *elevSource;
+}
 
 
 - (instancetype)init
@@ -32,33 +36,40 @@
 
 - (void)setUpWithGlobe:(WhirlyGlobeViewController *)globeVC
 {
-    GeographyClassTestCase *gctc = [[GeographyClassTestCase alloc] init];
-    [gctc setUpWithGlobe:globeVC];
+    NSString * baseCacheDir = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    NSString * cartodbTilesCacheDir = [NSString stringWithFormat:@"%@/stamentiles/", baseCacheDir];
+    int maxZoom = 15;
+    MaplyRemoteTileSource *tileSource = [[MaplyRemoteTileSource alloc] initWithBaseURL:@"http://tile.stamen.com/watercolor/" ext:@"png" minZoom:0 maxZoom:maxZoom];
+    tileSource.cacheDir = cartodbTilesCacheDir;
+    MaplyQuadImageTilesLayer *layer = [[MaplyQuadImageTilesLayer alloc] initWithCoordSystem:tileSource.coordSys tileSource:tileSource];
+    layer.handleEdges = true;
+    layer.coverPoles = true;
+    layer.requireElev = true;
+    layer.drawPriority = 0;
     
     [globeVC setTiltMinHeight:0.001 maxHeight:0.04 minTilt:1.40 maxTilt:0.0];
     globeVC.frameInterval = 2;  // 30fps
     
     globeVC.clearColor = [UIColor colorWithWhite:0.5 alpha:1.0];
     
-    MaplyRemoteTileElevationMazpenSource *mapzenElev =
-    [[MaplyRemoteTileElevationMazpenSource alloc]
-     initWithURL@"http://tile.dev.mapzen.com/mapzen/terrain/v1/256/terrarium/{z}/{x}/{y}.png?api_key=mapzen-mR9dA5q" minZoom:0 maxZoom:22];
-    NSString *cacheDir = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)  objectAtIndex:0];
-    mapzenElev = [NSString stringWithFormat:@"%@/mapzenElev/",cacheDir]
+    mapzenElev =
+    [[MaplyRemoteTileElevationMapzenSource alloc]
+     initWithURL:@"http://tile.dev.mapzen.com/mapzen/terrain/v1/260/terrarium/{z}/{x}/{y}.png?api_key=mapzen-mR9dA5q" minZoom:0 maxZoom:0];
+//    NSString *cacheDir = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)  objectAtIndex:0];
+//    mapzenElev.cacheDir = [NSString stringWithFormat:@"%@/mapzenElev260/",cacheDir];
     globeVC.elevDelegate = mapzenElev;
+
+    // Sine wave elevation
+//    elevSource = [[MaplyElevationSourceTester alloc] init];
+//    globeVC.elevDelegate = elevSource;
     
+    [globeVC addLayer:layer];
+
     // Don't forget to turn on the z buffer permanently
     [globeVC setHints:@{kMaplyRenderHintZBuffer: @(YES)}];
     
-//    MaplyPagingElevationTestTileSource *tileSource  =[[MaplyPagingElevationTestTileSource alloc] initWithCoordSys:[[MaplySphericalMercator alloc]initWebStandard] minZoom:0 maxZoom:10 elevSource:cesiumElev];
-//    MaplyQuadPagingLayer *layer = [[MaplyQuadPagingLayer alloc]initWithCoordSystem:tileSource.coordSys delegate:tileSource];
-//    layer.importance  = 128*128;
-//    layer.singleLevelLoading = false;
-//    [globeVC addLayer:layer];
-//    layer.drawPriority = 0;//BaseEarthPriority;
-    
     //Animate slowly into position
-    [globeVC animateToPosition:MaplyCoordinateMakeWithDegrees(-3.6704803, 40.5023056) time:5.0];
+//    [globeVC animateToPosition:MaplyCoordinateMakeWithDegrees(-3.6704803, 40.5023056) time:5.0];
 }
 
 @end

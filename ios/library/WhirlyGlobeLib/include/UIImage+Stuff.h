@@ -32,6 +32,9 @@
 /// Generate raw data for the image at the given resolution, with the given replicated border
 -(NSData *)rawDataScaleWidth:(unsigned int)width height:(unsigned int)height border:(int)border;
 
+/// This version does not scaling up or down
+-(NSData *)rawDataRetWidth:(unsigned int *)width height:(unsigned int *)height;
+
 @end
 
 @interface NSData(Stuff)

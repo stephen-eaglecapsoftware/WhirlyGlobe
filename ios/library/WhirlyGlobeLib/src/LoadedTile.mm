@@ -328,7 +328,7 @@ void TileBuilder::initAtlases(WhirlyKitTileImageType imageType,GLenum interpType
         int DrawBufferVertices = (sampleSizeX + 1) * (sampleSizeY + 1) * NumTiles;
         // Have to be able to address them
         // Note: Can't go up to 65536 for some reason
-        DrawBufferVertices = std::min(DrawBufferVertices,32768);
+        DrawBufferVertices = std::min(DrawBufferVertices,4*32768);
         int DrawBufferSize = DrawBufferVertices * SingleVertexSize;
         
         // Two triangles per grid cell in a tile

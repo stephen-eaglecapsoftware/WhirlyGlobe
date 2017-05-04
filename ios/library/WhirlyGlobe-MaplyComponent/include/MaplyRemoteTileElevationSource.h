@@ -22,6 +22,8 @@
 #import "MaplyCoordinateSystem.h"
 #import "MaplyElevationSource.h"
 
+/**
+  */
 @interface MaplyRemoteTileElevationInfo : NSObject
 
 - (nonnull instancetype)initWithBaseURL:(NSString *__nonnull)baseURL ext:(NSString *__nonnull)ext minZoom:(int)minZoom maxZoom:(int)maxZoom;
@@ -61,28 +63,40 @@
 
 @class MaplyRemoteTileElevationSource;
 
-
+/** Fill in this protocol to provide elevation data for tiles as they're loaded.
+    Source image layers can query a central elevation service for elevation tiles.  This is
+    how you provide that service.
+  */
 @protocol MaplyRemoteTileElevationSourceDelegate <NSObject>
 
 @optional
 
+/** Let the object know that a tile was loaded.
+  */
 - (void) remoteTileElevationSource:(id __nonnull)tileSource tileDidLoad:(MaplyTileID)tileID;
 
+/** Return an elevation chunk for the given tile.
+  */
 - (nullable MaplyElevationChunk *) remoteTileElevationSource:(id __nonnull)tileSource
 		modifyElevReturn:(MaplyElevationChunk *__nullable)elevChunk
 		forTile:(MaplyTileID)tileID;
 
+/** Let the object know that a tile did not correctly load.
+  */
 - (void) remoteTileElevationSource:(id __nonnull)tileSource tileDidNotLoad:(MaplyTileID)tileID error:(NSError *__nonnull)error;
 
 //TODO(JM) need enable/disable elevation?
 //- (void)remoteTileElevationSource:(id)tileSource tileDisabled:(MaplyTileID)tileID;
 //- (void)remoteTileElevationSource:(id)tileSource tileEnabled:(MaplyTileID)tileID;
 
+/** Let the object know when a tile is unloaded.
+  */
 - (void)remoteTileElevationSource:(id __nonnull)tileSource tileUnloaded:(MaplyTileID)tileID;
 
 @end
 
-
+/** The base class for a remote elevation tile source.  We override this to provide elevation data.
+  */
 @interface MaplyRemoteTileElevationSource : NSObject<MaplyElevationSourceDelegate>
 
 - (nullable instancetype)initWithBaseURL:(NSString *__nonnull)baseURL ext:(NSString *__nonnull)ext minZoom:(int)minZoom maxZoom:(int)maxZoom;
@@ -117,7 +131,8 @@
 
 @end
 
-
+/** This elevation source knows how to deal with Cesium data.
+  */
 @interface MaplyRemoteTileElevationCesiumSource : MaplyRemoteTileElevationSource
 
 /// @detail Multiply the Z values by this amount

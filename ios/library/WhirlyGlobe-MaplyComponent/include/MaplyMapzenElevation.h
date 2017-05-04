@@ -6,8 +6,17 @@
 //  Copyright © 2017 mousebird consulting. All rights reserved.
 //
 
-#ifndef MaplyMapzenElevation_h
-#define MaplyMapzenElevation_h
+#import "MaplyTileSource.h"
+#import "MaplyCoordinateSystem.h"
+#import "MaplyElevationSource.h"
+#import "MaplyRemoteTileElevationSource.h"
 
+/** This elevation source handles Mapzen elevation tiles.
+  */
+@interface MaplyRemoteTileElevationMapzenSource : MaplyRemoteTileElevationSource
 
-#endif /* MaplyMapzenElevation_h */
+/** Initialize with a URL contain {x}, {y}, and {z}.
+  */
+- (id)initWithURL:(NSString *)url minZoom:(int)minZoom maxZoom:(int)maxZoom;
+
+@end
