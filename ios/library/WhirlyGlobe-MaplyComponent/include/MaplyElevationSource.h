@@ -52,6 +52,15 @@
  */
 - (nonnull instancetype)initWithGridData:(NSData *__nonnull)data sizeX:(unsigned int)sizeX sizeY:(unsigned int)sizeY;
 
+/** @brief This version uses a fixed grid with precalculated elevation and normals.
+    @details You initialize this one with size and the raw elevation and normal data.  Keep in mind normals are 3 floats each.
+    @param sizeX Number of samples in X.
+    @param sizeY Number of samples in Y.
+    @param elev An array of float elevation values.
+    @param norms An array of normal vectors (3 per entry).
+  */
+- (nonnull instancetype)initWithFixedGridSizeX:(unsigned int)sizeX sizeY:(unsigned int)sizeY elev:(float *_Nonnull)elev norm:(float *_Nonnull)norms;
+
 @end
 
 /** @brief Initialize the elevation data with a Cesium terrain tile.

@@ -64,6 +64,12 @@ typedef struct
   */
 @protocol WhirlyKitElevationChunk<NSObject>
 
+/// Approximate X size
+- (int)getSizeX;
+
+/// Approximate Y size
+- (int)getSizeY;
+
 /// Return the elevation at an exact location
 - (float)elevationAtX:(int)x y:(int)y;
 
@@ -100,5 +106,23 @@ typedef struct
 
 /// Initialize with shorts of the given size
 - (id)initWithShortData:(NSData *)data sizeX:(int)sizeX sizeY:(int)sizeY;
+
+@end
+
+/** This version of the elevation grid only deals with fixed arrays.
+    Everything is calculated up front and then converted at once.  No interpolation.
+  */
+@interface WhirlyKitElevationGridFixedChunk : NSObject<WhirlyKitElevationChunk>
+{
+    @public
+    /// Elevation data
+    std::vector<float> elevs;
+    
+    /// Normals
+    std::vector<WhirlyKit::Point3f> normals;
+}
+
+/// Initialization with size
+- (id)initWithSizeX:(int)x y:(int)y;
 
 @end

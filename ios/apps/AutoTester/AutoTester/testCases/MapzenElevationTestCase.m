@@ -37,15 +37,17 @@
 - (void)setUpWithGlobe:(WhirlyGlobeViewController *)globeVC
 {
     NSString * baseCacheDir = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-    NSString * cartodbTilesCacheDir = [NSString stringWithFormat:@"%@/stamentiles/", baseCacheDir];
+//    NSString * cartodbTilesCacheDir = [NSString stringWithFormat:@"%@/stamentiles/", baseCacheDir];
     int maxZoom = 15;
-    MaplyRemoteTileSource *tileSource = [[MaplyRemoteTileSource alloc] initWithBaseURL:@"http://tile.stamen.com/watercolor/" ext:@"png" minZoom:0 maxZoom:maxZoom];
-    tileSource.cacheDir = cartodbTilesCacheDir;
+//    MaplyRemoteTileSource *tileSource = [[MaplyRemoteTileSource alloc] initWithBaseURL:@"http://tile.stamen.com/watercolor/" ext:@"png" minZoom:0 maxZoom:maxZoom];
+//    tileSource.cacheDir = cartodbTilesCacheDir;
+    MaplyAnimationTestTileSource *tileSource = [[MaplyAnimationTestTileSource alloc] initWithCoordSys:[[MaplySphericalMercator alloc] initWebStandard] minZoom:0 maxZoom:maxZoom  depth:1];
     MaplyQuadImageTilesLayer *layer = [[MaplyQuadImageTilesLayer alloc] initWithCoordSystem:tileSource.coordSys tileSource:tileSource];
-    layer.handleEdges = true;
-    layer.coverPoles = true;
+    layer.handleEdges = false;
+    layer.coverPoles = false;
     layer.requireElev = true;
     layer.drawPriority = 0;
+//    layer.importanceScale = 1/100.0;
     
     [globeVC setTiltMinHeight:0.001 maxHeight:0.04 minTilt:1.40 maxTilt:0.0];
     globeVC.frameInterval = 2;  // 30fps
@@ -54,7 +56,7 @@
     
     mapzenElev =
     [[MaplyRemoteTileElevationMapzenSource alloc]
-     initWithURL:@"http://tile.dev.mapzen.com/mapzen/terrain/v1/260/terrarium/{z}/{x}/{y}.png?api_key=mapzen-mR9dA5q" minZoom:0 maxZoom:0];
+     initWithURL:@"http://tile.dev.mapzen.com/mapzen/terrain/v1/260/terrarium/{z}/{x}/{y}.png?api_key=mapzen-mR9dA5q" minZoom:0 maxZoom:6];
 //    NSString *cacheDir = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)  objectAtIndex:0];
 //    mapzenElev.cacheDir = [NSString stringWithFormat:@"%@/mapzenElev260/",cacheDir];
     globeVC.elevDelegate = mapzenElev;

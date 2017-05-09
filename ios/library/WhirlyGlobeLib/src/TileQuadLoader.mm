@@ -633,11 +633,11 @@ using namespace WhirlyKit;
         int estTexX = tileBuilder->defaultSphereTessX;
         int estTexY = tileBuilder->defaultSphereTessY;
         
-        if ([loadElev isKindOfClass:[WhirlyKitElevationGridChunk class]])
+        if ([loadElev conformsToProtocol:@protocol(WhirlyKitElevationChunk)])
         {
-            WhirlyKitElevationGridChunk *gridElev = (WhirlyKitElevationGridChunk *)loadElev;
-            estTexX = std::max(gridElev.sizeX-1, estTexX);
-            estTexY = std::max(gridElev.sizeY-1, estTexY);
+            NSObject<WhirlyKitElevationChunk> *elev = loadElev;
+            estTexX = std::max([elev getSizeX]-1, estTexX);
+            estTexY = std::max([elev getSizeY]-1, estTexY);
         }
         tileBuilder->initAtlases(_imageType,_interpType,_numImages,_textureAtlasSize,estTexX,estTexY);
         if (!_enable)

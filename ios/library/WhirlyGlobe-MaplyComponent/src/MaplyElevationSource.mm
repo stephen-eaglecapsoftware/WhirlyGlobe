@@ -42,6 +42,23 @@
     return self;
 }
 
+- (nonnull instancetype)initWithFixedGridSizeX:(unsigned int)sizeX sizeY:(unsigned int)sizeY elev:(float *)elev norm:(float *)norms
+{
+    if (self = [super init])
+    {
+        WhirlyKitElevationGridFixedChunk *fixedChunk = [[WhirlyKitElevationGridFixedChunk alloc] initWithSizeX:sizeX y:sizeY];
+        self.chunkImpl = fixedChunk;
+        for (unsigned int ii=0;ii<sizeX*sizeY;ii++)
+        {
+            fixedChunk->elevs[ii] = elev[ii];
+            WhirlyKit::Point3f norm(norms[ii*3+0],norms[ii*3+1],norms[ii*3+2]);
+            fixedChunk->normals[ii] = norm;
+        }
+    }
+    
+    return self;
+}
+
 @end
 
 @implementation MaplyElevationCesiumChunk
