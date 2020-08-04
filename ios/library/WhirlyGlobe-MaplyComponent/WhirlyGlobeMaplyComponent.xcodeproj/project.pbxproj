@@ -1057,7 +1057,6 @@
 		2BE53AB51D249CAF00B60FAD /* SMCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE53AB31D249CAF00B60FAD /* SMCalloutView.m */; };
 		2BE53AC71D249E1500B60FAD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE53AC61D249E1500B60FAD /* CoreLocation.framework */; };
 		3A9309EE6CF7CECC8C4D6AF1 /* Pods_WhirlyGlobeMaplyComponent_WhirlyGlobeMaplyComponentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31C8C2AF6447EC58A1DF5A0 /* Pods_WhirlyGlobeMaplyComponent_WhirlyGlobeMaplyComponentTests.framework */; };
-		6B260E1524D4844D00030458 /* Pods_WhirlyGlobeMaplyComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B260E1024D4844100030458 /* Pods_WhirlyGlobeMaplyComponent.framework */; };
 		6B36BB8024D8535700DDE06B /* MaplyRenderController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B127BF720126FBD0099F405 /* MaplyRenderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B604DE924D860820079F7EA /* PJ_eck3.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B82B43B1E82E2490095FB14 /* PJ_eck3.c */; };
 		6B604DEA24D860820079F7EA /* PJ_larr.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B82B45F1E82E2490095FB14 /* PJ_larr.c */; };
@@ -1614,7 +1613,6 @@
 		6B60501124D860820079F7EA /* laswritepoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B884A381E3803170027C397 /* laswritepoint.cpp */; };
 		6B60501224D860820079F7EA /* ScreenSpaceBuilder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B82B5A71E82E2490095FB14 /* ScreenSpaceBuilder.mm */; };
 		6B60501324D860820079F7EA /* MaplyBaseViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BE537A11D249A1200B60FAD /* MaplyBaseViewController.mm */; };
-		6B60501524D860820079F7EA /* Pods_WhirlyGlobeMaplyComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B260E1024D4844100030458 /* Pods_WhirlyGlobeMaplyComponent.framework */; };
 		6B60501624D860820079F7EA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE53AC41D249E0600B60FAD /* libz.tbd */; };
 		6B60501724D860820079F7EA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B84ED1C1F83FC9B00B34D73 /* CoreText.framework */; };
 		6B60501824D860820079F7EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B84ED1A1F83FC8F00B34D73 /* UIKit.framework */; };
@@ -2146,38 +2144,9 @@
 			remoteGlobalIDString = 2BE536FE1D2499E500B60FAD;
 			remoteInfo = WhirlyGlobeMaplyComponent;
 		};
-		6B260E0F24D4844100030458 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B260E0A24D4844100030458 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9DE7EAB394AF04F31E52D1B877250EAE;
-			remoteInfo = "Pods-WhirlyGlobeMaplyComponent";
-		};
-		6B260E1124D4844100030458 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B260E0A24D4844100030458 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3E6FE3C736733B29E1F0BD15E8051336;
-			remoteInfo = "Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests";
-		};
-		6B260E1324D4844800030458 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B260E0A24D4844100030458 /* Pods.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 3AD6735715BC00525FAAB5EF5CC6530B;
-			remoteInfo = "Pods-WhirlyGlobeMaplyComponent";
-		};
-		6B604DE624D860820079F7EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B260E0A24D4844100030458 /* Pods.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 3AD6735715BC00525FAAB5EF5CC6530B;
-			remoteInfo = "Pods-WhirlyGlobeMaplyComponent";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1DCCA49286E98B41104B61F6 /* Pods-WhirlyGlobeMaplyComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlyGlobeMaplyComponent.release.xcconfig"; path = "Target Support Files/Pods-WhirlyGlobeMaplyComponent/Pods-WhirlyGlobeMaplyComponent.release.xcconfig"; sourceTree = "<group>"; };
 		2B0387ED20699DD900DD5C40 /* QuadTreeNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadTreeNew.h; sourceTree = "<group>"; };
 		2B0387EF2069A9EF00DD5C40 /* QuadTreeNew.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QuadTreeNew.mm; sourceTree = "<group>"; };
 		2B0387F12069BC2E00DD5C40 /* QuadDisplayLayerNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadDisplayLayerNew.h; sourceTree = "<group>"; };
@@ -3236,9 +3205,6 @@
 		2BE53AC21D249DDE00B60FAD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		2BE53AC41D249E0600B60FAD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		2BE53AC61D249E1500B60FAD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		54FD28DD177A23207309FB3B /* Pods-WhirlyGlobeMaplyComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlyGlobeMaplyComponent.debug.xcconfig"; path = "Target Support Files/Pods-WhirlyGlobeMaplyComponent/Pods-WhirlyGlobeMaplyComponent.debug.xcconfig"; sourceTree = "<group>"; };
-		673C1C42C01AC99AE11C6236 /* Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests.debug.xcconfig"; path = "Target Support Files/Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests/Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6B260E0A24D4844100030458 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		6B60521624D860820079F7EA /* WhirlyGlobeMaplyComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WhirlyGlobeMaplyComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31C8C2AF6447EC58A1DF5A0 /* Pods_WhirlyGlobeMaplyComponent_WhirlyGlobeMaplyComponentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhirlyGlobeMaplyComponent_WhirlyGlobeMaplyComponentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB23E2D1DAF070A61AD86B59 /* Pods_WhirlyGlobeMaplyComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhirlyGlobeMaplyComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3256,7 +3222,6 @@
 		E5EF69FA1D6B938800A2A660 /* SLDExpressions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDExpressions.m; sourceTree = "<group>"; };
 		E5EF69FB1D6B938800A2A660 /* SLDOperators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDOperators.m; sourceTree = "<group>"; };
 		E5EF69FC1D6B938800A2A660 /* SLDSymbolizers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDSymbolizers.m; sourceTree = "<group>"; };
-		E67A7522E7808518A0749772 /* Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests.release.xcconfig"; path = "Target Support Files/Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests/Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3264,7 +3229,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B260E1524D4844D00030458 /* Pods_WhirlyGlobeMaplyComponent.framework in Frameworks */,
 				2B84ED1E1F83FC9F00B34D73 /* libz.tbd in Frameworks */,
 				2B84ED1D1F83FC9B00B34D73 /* CoreText.framework in Frameworks */,
 				2B84ED1B1F83FC8F00B34D73 /* UIKit.framework in Frameworks */,
@@ -3290,7 +3254,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B60501524D860820079F7EA /* Pods_WhirlyGlobeMaplyComponent.framework in Frameworks */,
 				6B60501624D860820079F7EA /* libz.tbd in Frameworks */,
 				6B60501724D860820079F7EA /* CoreText.framework in Frameworks */,
 				6B60501824D860820079F7EA /* UIKit.framework in Frameworks */,
@@ -3306,17 +3269,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0975781D9C85AAF2B9C926CC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				54FD28DD177A23207309FB3B /* Pods-WhirlyGlobeMaplyComponent.debug.xcconfig */,
-				1DCCA49286E98B41104B61F6 /* Pods-WhirlyGlobeMaplyComponent.release.xcconfig */,
-				673C1C42C01AC99AE11C6236 /* Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests.debug.xcconfig */,
-				E67A7522E7808518A0749772 /* Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		2B82B36E1E82E2080095FB14 /* WhirlyGlobeLib */ = {
 			isa = PBXGroup;
 			children = (
@@ -4322,7 +4274,6 @@
 		2BE536F51D2499E500B60FAD = {
 			isa = PBXGroup;
 			children = (
-				6B260E0A24D4844100030458 /* Pods.xcodeproj */,
 				2BE53AC61D249E1500B60FAD /* CoreLocation.framework */,
 				2BE53AC41D249E0600B60FAD /* libz.tbd */,
 				2BE53AC21D249DDE00B60FAD /* libsqlite3.tbd */,
@@ -4340,7 +4291,6 @@
 				2BE5370D1D2499E500B60FAD /* WhirlyGlobeMaplyComponentTests */,
 				2BE537001D2499E500B60FAD /* Products */,
 				2B84ED111F83FC5A00B34D73 /* Frameworks */,
-				0975781D9C85AAF2B9C926CC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -4992,15 +4942,6 @@
 				2BE53AB31D249CAF00B60FAD /* SMCalloutView.m */,
 			);
 			name = SMCalloutView;
-			sourceTree = "<group>";
-		};
-		6B260E0B24D4844100030458 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6B260E1024D4844100030458 /* Pods_WhirlyGlobeMaplyComponent.framework */,
-				6B260E1224D4844100030458 /* Pods_WhirlyGlobeMaplyComponent_WhirlyGlobeMaplyComponentTests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -6023,7 +5964,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BE537131D2499E500B60FAD /* Build configuration list for PBXNativeTarget "WhirlyGlobeMaplyComponent" */;
 			buildPhases = (
-				762F065980919FD911CC91C7 /* [CP] Check Pods Manifest.lock */,
 				2BE536FA1D2499E500B60FAD /* Sources */,
 				2BE536FB1D2499E500B60FAD /* Frameworks */,
 				2BE536FC1D2499E500B60FAD /* Headers */,
@@ -6031,7 +5971,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6B260E1424D4844800030458 /* PBXTargetDependency */,
 			);
 			name = WhirlyGlobeMaplyComponent;
 			productName = WhirlyGlobeMaplyComponent;
@@ -6070,7 +6009,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6B604DE524D860820079F7EA /* PBXTargetDependency */,
 			);
 			name = WhirlyGlobeMaplyComponent_Universal;
 			productName = WhirlyGlobeMaplyComponent;
@@ -6105,12 +6043,6 @@
 			mainGroup = 2BE536F51D2499E500B60FAD;
 			productRefGroup = 2BE537001D2499E500B60FAD /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 6B260E0B24D4844100030458 /* Products */;
-					ProjectRef = 6B260E0A24D4844100030458 /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				2BE536FE1D2499E500B60FAD /* WhirlyGlobeMaplyComponent */,
@@ -6119,23 +6051,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		6B260E1024D4844100030458 /* Pods_WhirlyGlobeMaplyComponent.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_WhirlyGlobeMaplyComponent.framework;
-			remoteRef = 6B260E0F24D4844100030458 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6B260E1224D4844100030458 /* Pods_WhirlyGlobeMaplyComponent_WhirlyGlobeMaplyComponentTests.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_WhirlyGlobeMaplyComponent_WhirlyGlobeMaplyComponentTests.framework;
-			remoteRef = 6B260E1124D4844100030458 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2BE537071D2499E500B60FAD /* Resources */ = {
@@ -6208,28 +6123,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Only check in the framework if you've built for both\n# device and simulator.\n\n#if [ \"$CONFIGURATION\" = \"DEBUG\" ]\n#then exit 0\n#fi\n\ncd $CONFIGURATION_BUILD_DIR/../\n\nrm -rf \"$CONFIGURATION-iphone/$PROJECT_NAME.framework\"\n\nif [ -d \"$CONFIGURATION-iphoneos/$PROJECT_NAME.framework\" ]; then\nif [ -d \"$CONFIGURATION-iphonesimulator/$PROJECT_NAME.framework\" ]; then\n\nmkdir -p $CONFIGURATION-iphone\n\n#Copy for proccessing\ncp -rf $CONFIGURATION-iphoneos/$PROJECT_NAME.framework $CONFIGURATION-iphone/$PROJECT_NAME.framework\n\ncd $CONFIGURATION-iphone/$PROJECT_NAME.framework/Headers/\n\ncd ../\n\nrm \"$PROJECT_NAME\"\n\ncd $CONFIGURATION_BUILD_DIR/../\n\nlipo -create $CONFIGURATION-iphoneos/$PROJECT_NAME.framework/$PROJECT_NAME $CONFIGURATION-iphonesimulator/$PROJECT_NAME.framework/$PROJECT_NAME -output $CONFIGURATION-iphone/$PROJECT_NAME.framework/$PROJECT_NAME\n\nfile $CONFIGURATION-iphone/$PROJECT_NAME.framework/$PROJECT_NAME\n\ncd $CONFIGURATION-iphone/\n\n#zip -9 -r -X $PROJECT_NAME.framework.zip $PROJECT_NAME.framework\n#rm -r $SRCROOT/$PROJECT_NAME.framework\n#cp -r $PROJECT_NAME.framework $SRCROOT/$PROJECT_NAME.framework\n\nfi\nfi\n\nexit 0\n";
-		};
-		762F065980919FD911CC91C7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WhirlyGlobeMaplyComponent-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -7374,16 +7267,6 @@
 			target = 2BE536FE1D2499E500B60FAD /* WhirlyGlobeMaplyComponent */;
 			targetProxy = 2BE5370B1D2499E500B60FAD /* PBXContainerItemProxy */;
 		};
-		6B260E1424D4844800030458 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WhirlyGlobeMaplyComponent";
-			targetProxy = 6B260E1324D4844800030458 /* PBXContainerItemProxy */;
-		};
-		6B604DE524D860820079F7EA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WhirlyGlobeMaplyComponent";
-			targetProxy = 6B604DE624D860820079F7EA /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -7502,7 +7385,6 @@
 		};
 		2BE537141D2499E500B60FAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54FD28DD177A23207309FB3B /* Pods-WhirlyGlobeMaplyComponent.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -7557,7 +7439,6 @@
 		};
 		2BE537151D2499E500B60FAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DCCA49286E98B41104B61F6 /* Pods-WhirlyGlobeMaplyComponent.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -7610,7 +7491,6 @@
 		};
 		2BE537171D2499E500B60FAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 673C1C42C01AC99AE11C6236 /* Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WhirlyGlobeMaplyComponentTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -7621,7 +7501,6 @@
 		};
 		2BE537181D2499E500B60FAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E67A7522E7808518A0749772 /* Pods-WhirlyGlobeMaplyComponent-WhirlyGlobeMaplyComponentTests.release.xcconfig */;
 			buildSettings = {
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
@@ -7634,7 +7513,6 @@
 		};
 		6B60521424D860820079F7EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54FD28DD177A23207309FB3B /* Pods-WhirlyGlobeMaplyComponent.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -7690,7 +7568,6 @@
 		};
 		6B60521524D860820079F7EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DCCA49286E98B41104B61F6 /* Pods-WhirlyGlobeMaplyComponent.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
